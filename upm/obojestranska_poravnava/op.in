@@ -1,0 +1,10 @@
+  Implementirajte funkcionalnost obojestranske poravnave, kot jo poznamo v
+urejevalnikih besedila. To pomeni, da moramo za dano besedilo ugotoviti,
+koliko besed gre lahko v eno vrstico, ter nato primerno raztegniti presledke
+ med besedami, da sta poravnana tako levi kot desni del besedila.
+
+Kje tocno se bodo lomile vrstice je odvisno vrste in
+ velikosti pisave,   dolzine vrstice, itd... V nasem primeru bomo uporabili A4 papir s sirino besedila 17cm in pisavo Arial velikosti 12pt,
+
+ki ima
+naslednje sirine znakov v pt:

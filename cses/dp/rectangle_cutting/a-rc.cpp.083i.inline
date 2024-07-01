@@ -1,0 +1,2601 @@
+IPA function summary for allocate.isra/5534 inlinable
+  global time:     16.700000
+  self size:       13
+  global size:     13
+  min size:       3
+  self stack:      0
+  global stack:    0
+    size:0.000000, time:0.000000
+    size:3.000000, time:1.800000,  executed if:(not inlined)
+    size:5.000000, time:3.100000,  nonconst if:(op1 changed)
+  calls:
+    long int __builtin_expect(long int, long int)/5468 function body not available
+      freq:1.00 loop depth: 0 size: 0 time:  0
+       op0 points to local or readonly memory
+       op1 is compile time invariant
+       op1 points to local or readonly memory
+    void std::__throw_bad_array_new_length()/5469 function body not available
+      freq:0.05 loop depth: 0 size: 1 time: 10 predicate: (op1 > 4611686018427387903)
+    void std::__throw_bad_alloc()/5470 function body not available
+      freq:0.05 loop depth: 0 size: 1 time: 10 predicate: (op1 <= 4611686018427387903)
+    void* operator new(std::size_t)/5471 function body not available
+      freq:0.90 loop depth: 0 size: 3 time: 12
+       op0 points to local or readonly memory
+
+IPA function summary for allocate.isra/5533 inlinable
+  global time:     16.700000
+  self size:       13
+  global size:     13
+  min size:       3
+  self stack:      0
+  global stack:    0
+    size:0.000000, time:0.000000
+    size:3.000000, time:1.800000,  executed if:(not inlined)
+    size:5.000000, time:3.100000,  nonconst if:(op1 changed)
+  calls:
+    long int __builtin_expect(long int, long int)/5468 function body not available
+      freq:1.00 loop depth: 0 size: 0 time:  0
+       op0 points to local or readonly memory
+       op1 is compile time invariant
+       op1 points to local or readonly memory
+    void std::__throw_bad_array_new_length()/5469 function body not available
+      freq:0.05 loop depth: 0 size: 1 time: 10 predicate: (op1 > 768614336404564650)
+    void std::__throw_bad_alloc()/5470 function body not available
+      freq:0.05 loop depth: 0 size: 1 time: 10 predicate: (op1 <= 768614336404564650)
+    void* operator new(std::size_t)/5471 function body not available
+      freq:0.90 loop depth: 0 size: 3 time: 12
+       op0 points to local or readonly memory
+
+IPA function summary for _OutputIterator std::__fill_n_a(_OutputIterator, _Size, const _Tp&, std::random_access_iterator_tag) [with _OutputIterator = int*; _Size = long unsigned int; _Tp = int]/5532 inlinable
+  global time:     39.363637
+  self size:       10
+  global size:     10
+  min size:       4
+  self stack:      0
+  global stack:    0
+    size:4.000000, time:34.363637
+    size:3.000000, time:2.000000,  executed if:(not inlined)
+    size:1.000000, time:1.000000,  nonconst if:(op1 changed)
+    size:1.000000, time:1.000000,  nonconst if:(op1 changed || op0 changed)
+    size:0.500000, time:0.500000,  executed if:(not inlined),  nonconst if:(op2[ref offset: 0] changed) && (not inlined)
+    size:0.500000, time:0.500000,  nonconst if:(op2[ref offset: 0] changed)
+  loop iterations:  1.00 for (op1 changed || op0 changed)
+  calls:
+
+IPA function summary for __static_initialization_and_destruction_0.constprop/5531 inlinable
+  global time:     3.651584
+  self size:       13
+  global size:     9
+  min size:       0
+  self stack:      0
+  global stack:    0
+    size:0.000000, time:0.000000
+    size:3.000000, time:2.000000,  executed if:(not inlined)
+  calls:
+    std::ios_base::Init::Init()/5479 function body not available
+      freq:0.07 loop depth: 0 size: 2 time: 11 predicate: (op1 == 65535) && (op0 == 1)
+       op0 is compile time invariant
+    int __cxxabiv1::__cxa_atexit(void (*)(void*), void*, void*)/5480 function body not available
+      freq:0.07 loop depth: 0 size: 4 time: 13 predicate: (op1 == 65535) && (op0 == 1)
+       op0 is compile time invariant
+       op1 is compile time invariant
+       op2 is compile time invariant
+
+IPA function summary for (static initializers for rc.cpp)/5461 inlinable
+  global time:     14.000000
+  self size:       6
+  global size:     6
+  min size:       3
+  self stack:      0
+  global stack:    0
+    size:0.000000, time:0.000000
+    size:3.000000, time:2.000000,  executed if:(not inlined)
+  calls:
+    __static_initialization_and_destruction_0.constprop/5531 function not considered for inlining
+      freq:1.00 loop depth: 0 size: 3 time: 12 callee size: 4 stack: 0
+       op0 is compile time invariant
+       op1 is compile time invariant
+
+IPA summary for std::vector<_Tp, _Alloc>::vector(const std::vector<_Tp, _Alloc>&) [with _Tp = int; _Alloc = std::allocator<int>]/4981 is missing.
+IPA function summary for std::vector<_Tp, _Alloc>::vector(const std::vector<_Tp, _Alloc>&) [with _Tp = int; _Alloc = std::allocator<int>]/4980 inlinable
+  global time:     35.951100
+  self size:       25
+  global size:     25
+  min size:       15
+  self stack:      0
+  global stack:    0
+    size:7.500000, time:7.500000
+    size:6.500000, time:5.500000,  executed if:(not inlined)
+    size:0.500000, time:0.500000,  executed if:(not inlined),  nonconst if:(op1[ref offset: 64] changed) && (not inlined)
+    size:0.500000, time:0.500000,  nonconst if:(op1[ref offset: 64] changed)
+    size:0.500000, time:0.500000,  executed if:(not inlined),  nonconst if:(op1[ref offset: 0] changed) && (not inlined)
+    size:0.500000, time:0.500000,  nonconst if:(op1[ref offset: 0] changed)
+    size:2.000000, time:2.000000,  nonconst if:(op1[ref offset: 64] changed || op1[ref offset: 0] changed)
+  calls:
+    void* __builtin_memmove(void*, const void*, long unsigned int)/5477 function body not available
+      freq:0.53 loop depth: 0 size: 4 time: 13
+       op2 points to local or readonly memory
+    void std::_Vector_base<_Tp, _Alloc>::_M_create_storage(std::size_t) [with _Tp = int; _Alloc = std::allocator<int>]/4588 function not considered for inlining
+      freq:1.00 loop depth: 0 size: 3 time: 12 callee size: 7 stack: 0
+       op1 points to local or readonly memory
+
+IPA function summary for static _ForwardIterator std::__uninitialized_fill_n<_TrivialValueType>::__uninit_fill_n(_ForwardIterator, _Size, const _Tp&) [with _ForwardIterator = std::vector<int>*; _Size = long unsigned int; _Tp = std::vector<int>; bool _TrivialValueType = false]/4823 inlinable
+  global time:     133.454546
+  self size:       31
+  global size:     31
+  min size:       28
+  self stack:      0
+  global stack:    0
+    size:19.000000, time:34.363637
+    size:3.000000, time:2.000000,  executed if:(not inlined)
+  loop iterations:  1.00 for (op1 changed)
+  calls:
+    void __cxa_end_catch()/5476 function body not available
+      freq:0.00 loop depth: 0 size: 1 time: 10
+    void __cxa_rethrow()/5475 function body not available
+      freq:0.00 loop depth: 0 size: 1 time: 10
+    std::_Vector_base<_Tp, _Alloc>::~_Vector_base() [with _Tp = int; _Alloc = std::allocator<int>]/4318 function not considered for inlining
+      freq:0.00 loop depth: 1 size: 2 time: 11 callee size: 5 stack: 0
+    void* __cxa_begin_catch(void*)/5474 function body not available
+      freq:0.00 loop depth: 0 size: 2 time: 11
+    void* __builtin_eh_pointer(int)/5473 function body not available
+      freq:0.00 loop depth: 0 size: 0 time:  0
+       op0 is compile time invariant
+    std::vector<_Tp, _Alloc>::vector(const std::vector<_Tp, _Alloc>&) [with _Tp = int; _Alloc = std::allocator<int>]/4980 function not considered for inlining
+      freq:8.09 loop depth: 1 size: 3 time: 12 callee size:12 stack: 0
+       op1 change 12.350000% of time
+
+IPA function summary for void std::_Vector_base<_Tp, _Alloc>::_M_create_storage(std::size_t) [with _Tp = std::vector<int>; _Alloc = std::allocator<std::vector<int> >]/4600 inlinable
+  global time:     16.653800
+  self size:       15
+  global size:     15
+  min size:       3
+  self stack:      0
+  global stack:    0
+    size:2.500000, time:2.500000
+    size:4.500000, time:3.500000,  executed if:(not inlined)
+    size:3.000000, time:3.000000,  nonconst if:(op1 changed)
+  calls:
+    allocate.isra/5533 function not considered for inlining
+      freq:0.55 loop depth: 0 size: 5 time: 14 callee size: 6 stack: 0 predicate: (op1 != 0)
+       op2 is compile time invariant
+       op2 points to local or readonly memory
+
+IPA function summary for void std::_Vector_base<_Tp, _Alloc>::_M_create_storage(std::size_t) [with _Tp = int; _Alloc = std::allocator<int>]/4588 inlinable
+  global time:     16.653800
+  self size:       15
+  global size:     15
+  min size:       3
+  self stack:      0
+  global stack:    0
+    size:2.500000, time:2.500000
+    size:4.500000, time:3.500000,  executed if:(not inlined)
+    size:3.000000, time:3.000000,  nonconst if:(op1 changed)
+  calls:
+    allocate.isra/5534 function not considered for inlining
+      freq:0.55 loop depth: 0 size: 5 time: 14 callee size: 6 stack: 0 predicate: (op1 != 0)
+       op2 is compile time invariant
+       op2 points to local or readonly memory
+
+IPA summary for std::_Vector_base<_Tp, _Alloc>::~_Vector_base() [with _Tp = std::vector<int>; _Alloc = std::allocator<std::vector<int> >]/4338 is missing.
+IPA function summary for std::_Vector_base<_Tp, _Alloc>::~_Vector_base() [with _Tp = std::vector<int>; _Alloc = std::allocator<std::vector<int> >]/4337 inlinable
+  global time:     13.416400
+  self size:       11
+  global size:     11
+  min size:       0
+  self stack:      0
+  global stack:    0
+    size:0.000000, time:0.000000
+    size:3.000000, time:2.000000,  executed if:(not inlined)
+    size:0.500000, time:0.500000,  executed if:(not inlined),  nonconst if:(op0[ref offset: 128] changed) && (not inlined)
+    size:0.500000, time:0.500000,  nonconst if:(op0[ref offset: 128] changed)
+    size:0.500000, time:0.500000,  executed if:(not inlined),  nonconst if:(op0[ref offset: 0] changed) && (not inlined)
+    size:2.500000, time:2.500000,  nonconst if:(op0[ref offset: 0] changed)
+    size:1.000000, time:1.000000,  nonconst if:(op0[ref offset: 128] changed || op0[ref offset: 0] changed)
+  calls:
+    void operator delete(void*, std::size_t)/5472 function body not available
+      freq:0.53 loop depth: 0 size: 3 time: 12 predicate: (op0[ref offset: 0] != 0B)
+       op1 points to local or readonly memory
+
+IPA function summary for void std::vector<_Tp, _Alloc>::_M_fill_initialize(std::vector<_Tp, _Alloc>::size_type, const value_type&) [with _Tp = int; _Alloc = std::allocator<int>]/4320 inlinable
+  global time:     15.240000
+  self size:       12
+  global size:     12
+  min size:       1
+  self stack:      0
+  global stack:    0
+    size:0.500000, time:0.500000
+    size:3.500000, time:2.500000,  executed if:(not inlined)
+    size:0.500000, time:0.500000,  executed if:(not inlined),  nonconst if:(op0[ref offset: 0] changed) && (not inlined)
+    size:0.500000, time:0.500000,  nonconst if:(op0[ref offset: 0] changed)
+    size:2.000000, time:2.000000,  nonconst if:(op1 changed)
+  calls:
+    _OutputIterator std::__fill_n_a(_OutputIterator, _Size, const _Tp&, std::random_access_iterator_tag) [with _OutputIterator = int*; _Size = long unsigned int; _Tp = int]/5532 function not considered for inlining
+      freq:0.66 loop depth: 0 size: 5 time: 14 callee size: 5 stack: 0 predicate: (op1 != 0)
+
+IPA summary for std::_Vector_base<_Tp, _Alloc>::~_Vector_base() [with _Tp = int; _Alloc = std::allocator<int>]/4319 is missing.
+IPA function summary for std::_Vector_base<_Tp, _Alloc>::~_Vector_base() [with _Tp = int; _Alloc = std::allocator<int>]/4318 inlinable
+  global time:     13.416400
+  self size:       11
+  global size:     11
+  min size:       0
+  self stack:      0
+  global stack:    0
+    size:0.000000, time:0.000000
+    size:3.000000, time:2.000000,  executed if:(not inlined)
+    size:0.500000, time:0.500000,  executed if:(not inlined),  nonconst if:(op0[ref offset: 128] changed) && (not inlined)
+    size:0.500000, time:0.500000,  nonconst if:(op0[ref offset: 128] changed)
+    size:0.500000, time:0.500000,  executed if:(not inlined),  nonconst if:(op0[ref offset: 0] changed) && (not inlined)
+    size:2.500000, time:2.500000,  nonconst if:(op0[ref offset: 0] changed)
+    size:1.000000, time:1.000000,  nonconst if:(op0[ref offset: 128] changed || op0[ref offset: 0] changed)
+  calls:
+    void operator delete(void*, std::size_t)/5472 function body not available
+      freq:0.53 loop depth: 0 size: 3 time: 12 predicate: (op0[ref offset: 0] != 0B)
+       op1 points to local or readonly memory
+
+IPA summary for std::vector<_Tp, _Alloc>::~vector() [with _Tp = std::vector<int>; _Alloc = std::allocator<std::vector<int> >]/3927 is missing.
+IPA function summary for std::vector<_Tp, _Alloc>::~vector() [with _Tp = std::vector<int>; _Alloc = std::allocator<std::vector<int> >]/3926 inlinable
+  global time:     130.272728
+  self size:       12
+  global size:     12
+  min size:       7
+  self stack:      0
+  global stack:    0
+    size:3.000000, time:26.272727
+    size:3.000000, time:2.000000,  executed if:(not inlined)
+    size:0.500000, time:0.500000,  executed if:(not inlined),  nonconst if:(op0[ref offset: 64] changed) && (not inlined)
+    size:0.500000, time:0.500000,  nonconst if:(op0[ref offset: 64] changed)
+    size:0.500000, time:0.500000,  executed if:(not inlined),  nonconst if:(op0[ref offset: 0] changed) && (not inlined)
+    size:0.500000, time:0.500000,  nonconst if:(op0[ref offset: 0] changed)
+  calls:
+    std::_Vector_base<_Tp, _Alloc>::~_Vector_base() [with _Tp = std::vector<int>; _Alloc = std::allocator<std::vector<int> >]/4337 function not considered for inlining
+      freq:1.00 loop depth: 0 size: 2 time: 11 callee size: 5 stack: 0
+    std::_Vector_base<_Tp, _Alloc>::~_Vector_base() [with _Tp = int; _Alloc = std::allocator<int>]/4318 function not considered for inlining
+      freq:8.09 loop depth: 1 size: 2 time: 11 callee size: 5 stack: 0
+
+IPA summary for std::vector<_Tp, _Alloc>::vector(std::vector<_Tp, _Alloc>::size_type, const value_type&, const allocator_type&) [with _Tp = std::vector<int>; _Alloc = std::allocator<std::vector<int> >]/3924 is missing.
+IPA function summary for std::vector<_Tp, _Alloc>::vector(std::vector<_Tp, _Alloc>::size_type, const value_type&, const allocator_type&) [with _Tp = std::vector<int>; _Alloc = std::allocator<std::vector<int> >]/3923 inlinable
+  global time:     34.991200
+  self size:       24
+  global size:     24
+  min size:       0
+  self stack:      0
+  global stack:    0
+    size:0.000000, time:0.000000
+    size:2.000000, time:0.000000,  executed if:(not inlined)
+    size:2.000000, time:2.000000,  nonconst if:(op1 changed)
+    size:3.500000, time:4.498200,  executed if:(op1 <= 384307168202282325) && (not inlined)
+    size:4.500000, time:2.499000,  executed if:(op1 <= 384307168202282325)
+  calls:
+    std::_Vector_base<_Tp, _Alloc>::~_Vector_base() [with _Tp = std::vector<int>; _Alloc = std::allocator<std::vector<int> >]/4337 function not considered for inlining
+      freq:0.00 loop depth: 0 size: 2 time: 11 callee size: 5 stack: 0 predicate: (op1 <= 384307168202282325)
+    static _ForwardIterator std::__uninitialized_fill_n<_TrivialValueType>::__uninit_fill_n(_ForwardIterator, _Size, const _Tp&) [with _ForwardIterator = std::vector<int>*; _Size = long unsigned int; _Tp = std::vector<int>; bool _TrivialValueType = false]/4823 function not considered for inlining
+      freq:1.00 loop depth: 0 size: 5 time: 14 callee size:15 stack: 0 predicate: (op1 <= 384307168202282325)
+    void std::_Vector_base<_Tp, _Alloc>::_M_create_storage(std::size_t) [with _Tp = std::vector<int>; _Alloc = std::allocator<std::vector<int> >]/4600 function not considered for inlining
+      freq:1.00 loop depth: 0 size: 3 time: 12 callee size: 7 stack: 0 predicate: (op1 <= 384307168202282325)
+    void std::__throw_length_error(const char*)/5467 function body not available
+      freq:0.00 loop depth: 0 size: 2 time: 11 predicate: (op1 > 384307168202282325)
+       op0 is compile time invariant
+
+IPA summary for std::vector<_Tp, _Alloc>::vector(std::vector<_Tp, _Alloc>::size_type, const value_type&, const allocator_type&) [with _Tp = int; _Alloc = std::allocator<int>]/3912 is missing.
+IPA function summary for std::vector<_Tp, _Alloc>::vector(std::vector<_Tp, _Alloc>::size_type, const value_type&, const allocator_type&) [with _Tp = int; _Alloc = std::allocator<int>]/3911 inlinable
+  global time:     31.992400
+  self size:       17
+  global size:     17
+  min size:       0
+  self stack:      0
+  global stack:    0
+    size:0.000000, time:0.000000
+    size:2.000000, time:0.000000,  executed if:(not inlined)
+    size:2.000000, time:2.000000,  nonconst if:(op1 changed)
+    size:2.500000, time:3.498600,  executed if:(op1 <= 2305843009213693951) && (not inlined)
+    size:1.500000, time:1.499400,  executed if:(op1 <= 2305843009213693951)
+  calls:
+    void std::vector<_Tp, _Alloc>::_M_fill_initialize(std::vector<_Tp, _Alloc>::size_type, const value_type&) [with _Tp = int; _Alloc = std::allocator<int>]/4320 function not considered for inlining
+      freq:1.00 loop depth: 0 size: 4 time: 13 callee size: 6 stack: 0 predicate: (op1 <= 2305843009213693951)
+    void std::_Vector_base<_Tp, _Alloc>::_M_create_storage(std::size_t) [with _Tp = int; _Alloc = std::allocator<int>]/4588 function not considered for inlining
+      freq:1.00 loop depth: 0 size: 3 time: 12 callee size: 7 stack: 0 predicate: (op1 <= 2305843009213693951)
+    void std::__throw_length_error(const char*)/5467 function body not available
+      freq:0.00 loop depth: 0 size: 2 time: 11 predicate: (op1 > 2305843009213693951)
+       op0 is compile time invariant
+
+IPA function summary for int main()/3228 inlinable
+  global time:     18444.788361
+  self size:       135
+  global size:     135
+  min size:       132
+  self stack:      71
+  global stack:    71
+    size:99.000000, time:18341.788361
+    size:3.000000, time:2.000000,  executed if:(not inlined)
+  calls:
+    std::vector<_Tp, _Alloc>::~vector() [with _Tp = std::vector<int>; _Alloc = std::allocator<std::vector<int> >]/3926 function not considered for inlining
+      freq:0.00 loop depth: 0 size: 2 time: 11 callee size: 6 stack: 0
+       op0 is compile time invariant
+       op0 points to local or readonly memory
+    std::_Vector_base<_Tp, _Alloc>::~_Vector_base() [with _Tp = int; _Alloc = std::allocator<int>]/4318 function not considered for inlining
+      freq:0.00 loop depth: 0 size: 2 time: 11 callee size: 5 stack: 0
+       op0 is compile time invariant
+       op0 points to local or readonly memory
+    std::vector<_Tp, _Alloc>::~vector() [with _Tp = std::vector<int>; _Alloc = std::allocator<std::vector<int> >]/3926 function not considered for inlining
+      freq:1.00 loop depth: 0 size: 2 time: 11 callee size: 6 stack: 0
+       op0 is compile time invariant
+       op0 points to local or readonly memory
+    std::basic_ostream<_CharT, _Traits>& std::__ostream_insert(std::basic_ostream<_CharT, _Traits>&, const _CharT*, std::streamsize) [with _CharT = char; _Traits = std::char_traits<char>]/5478 function body not available
+      freq:1.00 loop depth: 0 size: 4 time: 13
+       op1 is compile time invariant
+       op1 points to local or readonly memory
+       op2 is compile time invariant
+    std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(int) [with _CharT = char; _Traits = std::char_traits<char>]/5464 function body not available
+      freq:1.00 loop depth: 0 size: 4 time: 13
+       op0 is compile time invariant
+    std::_Vector_base<_Tp, _Alloc>::~_Vector_base() [with _Tp = int; _Alloc = std::allocator<int>]/4318 function not considered for inlining
+      freq:1.00 loop depth: 0 size: 2 time: 11 callee size: 5 stack: 0
+       op0 is compile time invariant
+       op0 points to local or readonly memory
+    std::vector<_Tp, _Alloc>::vector(std::vector<_Tp, _Alloc>::size_type, const value_type&, const allocator_type&) [with _Tp = std::vector<int>; _Alloc = std::allocator<std::vector<int> >]/3923 function not considered for inlining
+      freq:1.00 loop depth: 0 size: 5 time: 14 callee size:12 stack: 0
+       op0 is compile time invariant
+       op0 points to local or readonly memory
+       op1 points to local or readonly memory
+       op2 is compile time invariant
+       op2 points to local or readonly memory
+       op3 is compile time invariant
+       op3 points to local or readonly memory
+    std::vector<_Tp, _Alloc>::vector(std::vector<_Tp, _Alloc>::size_type, const value_type&, const allocator_type&) [with _Tp = int; _Alloc = std::allocator<int>]/3911 function not considered for inlining
+      freq:1.00 loop depth: 0 size: 5 time: 14 callee size: 8 stack: 0
+       op0 is compile time invariant
+       op0 points to local or readonly memory
+       op1 points to local or readonly memory
+       op2 is compile time invariant
+       op2 points to local or readonly memory
+       op3 is compile time invariant
+       op3 points to local or readonly memory
+    std::basic_istream<_CharT, _Traits>& std::basic_istream<_CharT, _Traits>::operator>>(int&) [with _CharT = char; _Traits = std::char_traits<char>]/5462 function body not available
+      freq:1.00 loop depth: 0 size: 3 time: 12
+       op1 is compile time invariant
+       op1 points to local or readonly memory
+    std::basic_istream<_CharT, _Traits>& std::basic_istream<_CharT, _Traits>::operator>>(int&) [with _CharT = char; _Traits = std::char_traits<char>]/5462 function body not available
+      freq:1.00 loop depth: 0 size: 4 time: 13
+       op0 is compile time invariant
+       op1 is compile time invariant
+       op1 points to local or readonly memory
+
+
+Flattening functions:
+Overall time estimate: 18977.245972 weighted by profile: 0.000000
+
+Deciding on inlining of small functions.  Starting with size 359.
+Enqueueing calls in allocate.isra/5534.
+Enqueueing calls in allocate.isra/5533.
+Enqueueing calls in _OutputIterator std::__fill_n_a(_OutputIterator, _Size, const _Tp&, std::random_access_iterator_tag) [with _OutputIterator = int*; _Size = long unsigned int; _Tp = int]/5532.
+Enqueueing calls in __static_initialization_and_destruction_0.constprop/5531.
+Enqueueing calls in (static initializers for rc.cpp)/5461.
+Enqueueing calls in std::vector<_Tp, _Alloc>::vector(const std::vector<_Tp, _Alloc>&) [with _Tp = int; _Alloc = std::allocator<int>]/4981.
+Enqueueing calls in std::vector<_Tp, _Alloc>::vector(const std::vector<_Tp, _Alloc>&) [with _Tp = int; _Alloc = std::allocator<int>]/4980.
+Enqueueing calls in static _ForwardIterator std::__uninitialized_fill_n<_TrivialValueType>::__uninit_fill_n(_ForwardIterator, _Size, const _Tp&) [with _ForwardIterator = std::vector<int>*; _Size = long unsigned int; _Tp = std::vector<int>; bool _TrivialValueType = false]/4823.
+Enqueueing calls in void std::_Vector_base<_Tp, _Alloc>::_M_create_storage(std::size_t) [with _Tp = std::vector<int>; _Alloc = std::allocator<std::vector<int> >]/4600.
+Enqueueing calls in void std::_Vector_base<_Tp, _Alloc>::_M_create_storage(std::size_t) [with _Tp = int; _Alloc = std::allocator<int>]/4588.
+Enqueueing calls in std::_Vector_base<_Tp, _Alloc>::~_Vector_base() [with _Tp = std::vector<int>; _Alloc = std::allocator<std::vector<int> >]/4338.
+Enqueueing calls in std::_Vector_base<_Tp, _Alloc>::~_Vector_base() [with _Tp = std::vector<int>; _Alloc = std::allocator<std::vector<int> >]/4337.
+Enqueueing calls in void std::vector<_Tp, _Alloc>::_M_fill_initialize(std::vector<_Tp, _Alloc>::size_type, const value_type&) [with _Tp = int; _Alloc = std::allocator<int>]/4320.
+Enqueueing calls in std::_Vector_base<_Tp, _Alloc>::~_Vector_base() [with _Tp = int; _Alloc = std::allocator<int>]/4319.
+Enqueueing calls in std::_Vector_base<_Tp, _Alloc>::~_Vector_base() [with _Tp = int; _Alloc = std::allocator<int>]/4318.
+Enqueueing calls in std::vector<_Tp, _Alloc>::~vector() [with _Tp = std::vector<int>; _Alloc = std::allocator<std::vector<int> >]/3927.
+Enqueueing calls in std::vector<_Tp, _Alloc>::~vector() [with _Tp = std::vector<int>; _Alloc = std::allocator<std::vector<int> >]/3926.
+Enqueueing calls in std::vector<_Tp, _Alloc>::vector(std::vector<_Tp, _Alloc>::size_type, const value_type&, const allocator_type&) [with _Tp = std::vector<int>; _Alloc = std::allocator<std::vector<int> >]/3924.
+Enqueueing calls in std::vector<_Tp, _Alloc>::vector(std::vector<_Tp, _Alloc>::size_type, const value_type&, const allocator_type&) [with _Tp = std::vector<int>; _Alloc = std::allocator<std::vector<int> >]/3923.
+Enqueueing calls in std::vector<_Tp, _Alloc>::vector(std::vector<_Tp, _Alloc>::size_type, const value_type&, const allocator_type&) [with _Tp = int; _Alloc = std::allocator<int>]/3912.
+Enqueueing calls in std::vector<_Tp, _Alloc>::vector(std::vector<_Tp, _Alloc>::size_type, const value_type&, const allocator_type&) [with _Tp = int; _Alloc = std::allocator<int>]/3911.
+Enqueueing calls in int main()/3228.
+
+Considering _OutputIterator std::__fill_n_a(_OutputIterator, _Size, const _Tp&, std::random_access_iterator_tag) [with _OutputIterator = int*; _Size = long unsigned int; _Tp = int]/5532 with 10 size
+ to be inlined into void std::vector<_Tp, _Alloc>::_M_fill_initialize(std::vector<_Tp, _Alloc>::size_type, const value_type&) [with _Tp = int; _Alloc = std::allocator<int>]/4320 in unknown:0
+ Estimated badness is -12.445714, frequency 0.66.
+  Parm map:  -1 1 2
+Updated mod-ref summary for void std::vector<_Tp, _Alloc>::_M_fill_initialize(std::vector<_Tp, _Alloc>::size_type, const value_type&) [with _Tp = int; _Alloc = std::allocator<int>]/4320
+  loads:
+    Limits: 32 bases, 16 refs
+      Base 0: alias set 14
+        Ref 0: alias set 13
+          access: Parm 0 param offset:0 offset:0 size:64 max_size:64
+      Base 1: alias set 5
+        Ref 0: alias set 5
+          access: Parm 2 param offset:0 offset:0 size:32 max_size:32
+  stores:
+    Limits: 32 bases, 16 refs
+      Base 0: alias set 14
+        Ref 0: alias set 13
+          access: Parm 0 param offset:0 offset:64 size:64 max_size:64
+      Base 1: alias set 5
+        Ref 0: alias set 5
+          Every access
+  parm 0 flags: nodirectescape
+New minimal size reached: 351
+
+Considering std::vector<_Tp, _Alloc>::vector(const std::vector<_Tp, _Alloc>&) [with _Tp = int; _Alloc = std::allocator<int>]/4980 with 25 size
+ to be inlined into static _ForwardIterator std::__uninitialized_fill_n<_TrivialValueType>::__uninit_fill_n(_ForwardIterator, _Size, const _Tp&) [with _ForwardIterator = std::vector<int>*; _Size = long unsigned int; _Tp = std::vector<int>; bool _TrivialValueType = false]/4823 in /usr/include/c++/11/bits/stl_construct.h:119
+ Estimated badness is -7.928434, frequency 8.09.
+  Parm map:  -1 2
+Updated mod-ref summary for static _ForwardIterator std::__uninitialized_fill_n<_TrivialValueType>::__uninit_fill_n(_ForwardIterator, _Size, const _Tp&) [with _ForwardIterator = std::vector<int>*; _Size = long unsigned int; _Tp = std::vector<int>; bool _TrivialValueType = false]/4823
+  loads:
+    Limits: 32 bases, 16 refs
+      Base 0: alias set 14
+        Ref 0: alias set 13
+          Every access
+      Base 1: alias set 13
+        Ref 0: alias set 13
+          access: Parm 2 param offset:8 offset:0 size:64 max_size:64
+          access: Parm 2 param offset:0 offset:0 size:64 max_size:64
+  stores:
+    Limits: 32 bases, 16 refs
+      Base 0: alias set 19
+        Ref 0: alias set 13
+          Every access
+      Base 1: alias set 14
+        Ref 0: alias set 13
+          Every access
+  parm 2 flags: direct noclobber noescape nodirectescape
+New minimal size reached: 341
+
+Considering void std::vector<_Tp, _Alloc>::_M_fill_initialize(std::vector<_Tp, _Alloc>::size_type, const value_type&) [with _Tp = int; _Alloc = std::allocator<int>]/4320 with 14 size
+ to be inlined into std::vector<_Tp, _Alloc>::vector(std::vector<_Tp, _Alloc>::size_type, const value_type&, const allocator_type&) [with _Tp = int; _Alloc = std::allocator<int>]/3911 in /usr/include/c++/11/bits/stl_vector.h:525
+ Estimated badness is -3.708661, frequency 1.00.
+  Parm map:  0 1 2
+Updated mod-ref summary for std::vector<_Tp, _Alloc>::vector(std::vector<_Tp, _Alloc>::size_type, const value_type&, const allocator_type&) [with _Tp = int; _Alloc = std::allocator<int>]/3911
+  loads:
+    Limits: 32 bases, 16 refs
+      Base 0: alias set 14
+        Ref 0: alias set 13
+          access: Parm 0 param offset:0 offset:0 size:64 max_size:64
+      Base 1: alias set 5
+        Ref 0: alias set 5
+          access: Parm 2 param offset:0 offset:0 size:32 max_size:32
+  stores:
+    Limits: 32 bases, 16 refs
+      Base 0: alias set 19
+        Ref 0: alias set 13
+          access: Parm 0 param offset:0 offset:0 size:64 max_size:64
+          access: Parm 0 param offset:0 offset:64 size:64 max_size:64
+          access: Parm 0 param offset:0 offset:128 size:64 max_size:64
+      Base 1: alias set 14
+        Ref 0: alias set 13
+          access: Parm 0 param offset:0 offset:64 size:64 max_size:64
+      Base 2: alias set 5
+        Ref 0: alias set 5
+          Every access
+  parm 0 flags: nodirectescape
+  parm 3 flags: unused
+New minimal size reached: 333
+
+Considering allocate.isra/5534 with 13 size
+ to be inlined into void std::_Vector_base<_Tp, _Alloc>::_M_create_storage(std::size_t) [with _Tp = int; _Alloc = std::allocator<int>]/4588 in /usr/include/c++/11/bits/alloc_traits.h:464
+ Estimated badness is -2.764115, frequency 0.55.
+  Parm map:  0 1 -2
+Updated mod-ref summary for void std::_Vector_base<_Tp, _Alloc>::_M_create_storage(std::size_t) [with _Tp = int; _Alloc = std::allocator<int>]/4588
+  loads:
+    Limits: 32 bases, 16 refs
+  stores:
+    Limits: 32 bases, 16 refs
+      Base 0: alias set 15
+        Ref 0: alias set 13
+          access: Parm 0 param offset:0 offset:0 size:64 max_size:64
+          access: Parm 0 param offset:0 offset:64 size:64 max_size:64
+          access: Parm 0 param offset:0 offset:128 size:64 max_size:64
+New minimal size reached: 325
+
+Considering allocate.isra/5533 with 13 size
+ to be inlined into void std::_Vector_base<_Tp, _Alloc>::_M_create_storage(std::size_t) [with _Tp = std::vector<int>; _Alloc = std::allocator<std::vector<int> >]/4600 in /usr/include/c++/11/bits/alloc_traits.h:464
+ Estimated badness is -2.764115, frequency 0.55.
+  Parm map:  0 1 -2
+Updated mod-ref summary for void std::_Vector_base<_Tp, _Alloc>::_M_create_storage(std::size_t) [with _Tp = std::vector<int>; _Alloc = std::allocator<std::vector<int> >]/4600
+  loads:
+    Limits: 32 bases, 16 refs
+  stores:
+    Limits: 32 bases, 16 refs
+      Base 0: alias set 8
+        Ref 0: alias set 6
+          access: Parm 0 param offset:0 offset:0 size:64 max_size:64
+          access: Parm 0 param offset:0 offset:64 size:64 max_size:64
+          access: Parm 0 param offset:0 offset:128 size:64 max_size:64
+New minimal size reached: 317
+
+Considering __static_initialization_and_destruction_0.constprop/5531 with 9 size
+ to be inlined into (static initializers for rc.cpp)/5461 in rc.cpp:26
+ Estimated badness is -2.074074, frequency 1.00.
+  Parm map:  -1 -1
+Updated mod-ref summary for (static initializers for rc.cpp)/5461
+  loads:
+    Limits: 32 bases, 16 refs
+  stores:
+    Limits: 32 bases, 16 refs
+New minimal size reached: 311
+
+Considering std::_Vector_base<_Tp, _Alloc>::~_Vector_base() [with _Tp = std::vector<int>; _Alloc = std::allocator<std::vector<int> >]/4337 with 11 size
+ to be inlined into std::vector<_Tp, _Alloc>::~vector() [with _Tp = std::vector<int>; _Alloc = std::allocator<std::vector<int> >]/3926 in /usr/include/c++/11/bits/stl_vector.h:683
+ Estimated badness is -1.317647, frequency 1.00.
+  Parm map:  0
+Updated mod-ref summary for std::vector<_Tp, _Alloc>::~vector() [with _Tp = std::vector<int>; _Alloc = std::allocator<std::vector<int> >]/3926
+  loads:
+    Limits: 32 bases, 16 refs
+      Base 0: alias set 7
+        Ref 0: alias set 6
+          access: Parm 0 param offset:0 offset:64 size:64 max_size:64
+          access: Parm 0 param offset:0 offset:0 size:64 max_size:64
+      Base 1: alias set 8
+        Ref 0: alias set 6
+          access: Parm 0 param offset:0 offset:128 size:64 max_size:64
+          access: Parm 0 param offset:0 offset:0 size:64 max_size:64
+  stores:
+    Limits: 32 bases, 16 refs
+  parm 0 flags: nodirectescape
+
+Considering void std::_Vector_base<_Tp, _Alloc>::_M_create_storage(std::size_t) [with _Tp = std::vector<int>; _Alloc = std::allocator<std::vector<int> >]/4600 with 20 size
+ to be inlined into std::vector<_Tp, _Alloc>::vector(std::vector<_Tp, _Alloc>::size_type, const value_type&, const allocator_type&) [with _Tp = std::vector<int>; _Alloc = std::allocator<std::vector<int> >]/3923 in /usr/include/c++/11/bits/stl_vector.h:305
+ Estimated badness is -1.030773, frequency 1.00.
+  Parm map:  0 1
+Updated mod-ref summary for std::vector<_Tp, _Alloc>::vector(std::vector<_Tp, _Alloc>::size_type, const value_type&, const allocator_type&) [with _Tp = std::vector<int>; _Alloc = std::allocator<std::vector<int> >]/3923
+  loads:
+    Limits: 32 bases, 16 refs
+      Base 0: alias set 7
+        Ref 0: alias set 6
+          access: Parm 0 param offset:0 offset:0 size:64 max_size:64
+  stores:
+    Limits: 32 bases, 16 refs
+      Base 0: alias set 12
+        Ref 0: alias set 6
+          access: Parm 0 param offset:0 offset:0 size:64 max_size:64
+          access: Parm 0 param offset:0 offset:64 size:64 max_size:64
+          access: Parm 0 param offset:0 offset:128 size:64 max_size:64
+      Base 1: alias set 7
+        Ref 0: alias set 6
+          access: Parm 0 param offset:0 offset:64 size:64 max_size:64
+      Base 2: alias set 8
+        Ref 0: alias set 6
+          access: Parm 0 param offset:0 offset:0 size:64 max_size:64
+          access: Parm 0 param offset:0 offset:64 size:64 max_size:64
+          access: Parm 0 param offset:0 offset:128 size:64 max_size:64
+  parm 3 flags: unused
+New minimal size reached: 309
+
+Considering std::vector<_Tp, _Alloc>::vector(std::vector<_Tp, _Alloc>::size_type, const value_type&, const allocator_type&) [with _Tp = int; _Alloc = std::allocator<int>]/3911 with 23 size
+ to be inlined into int main()/3228 in rc.cpp:9
+ Estimated badness is -0.291037, frequency 1.00.
+  Parm map:  -2 -2 -2 -2
+Updated mod-ref summary for int main()/3228
+  loads:
+    Limits: 32 bases, 16 refs
+      Base 0: alias set 14
+        Ref 0: alias set 13
+          Every access
+      Base 1: alias set 5
+        Ref 0: alias set 5
+          Every access
+  stores:
+    Limits: 32 bases, 16 refs
+      Base 0: alias set 5
+        Ref 0: alias set 5
+          Every access
+New minimal size reached: 299
+
+Considering static _ForwardIterator std::__uninitialized_fill_n<_TrivialValueType>::__uninit_fill_n(_ForwardIterator, _Size, const _Tp&) [with _ForwardIterator = std::vector<int>*; _Size = long unsigned int; _Tp = std::vector<int>; bool _TrivialValueType = false]/4823 with 46 size
+ to be inlined into std::vector<_Tp, _Alloc>::vector(std::vector<_Tp, _Alloc>::size_type, const value_type&, const allocator_type&) [with _Tp = std::vector<int>; _Alloc = std::allocator<std::vector<int> >]/3923 in /usr/include/c++/11/bits/stl_uninitialized.h:297
+ Estimated badness is -0.179577, frequency 1.00.
+  Parm map:  -1 1 2
+Updated mod-ref summary for std::vector<_Tp, _Alloc>::vector(std::vector<_Tp, _Alloc>::size_type, const value_type&, const allocator_type&) [with _Tp = std::vector<int>; _Alloc = std::allocator<std::vector<int> >]/3923
+  loads:
+    Limits: 32 bases, 16 refs
+      Base 0: alias set 7
+        Ref 0: alias set 6
+          access: Parm 0 param offset:0 offset:0 size:64 max_size:64
+      Base 1: alias set 14
+        Ref 0: alias set 13
+          Every access
+      Base 2: alias set 13
+        Ref 0: alias set 13
+          access: Parm 2 param offset:8 offset:0 size:64 max_size:64
+          access: Parm 2 param offset:0 offset:0 size:64 max_size:64
+  stores:
+    Limits: 32 bases, 16 refs
+      Base 0: alias set 12
+        Ref 0: alias set 6
+          access: Parm 0 param offset:0 offset:0 size:64 max_size:64
+          access: Parm 0 param offset:0 offset:64 size:64 max_size:64
+          access: Parm 0 param offset:0 offset:128 size:64 max_size:64
+      Base 1: alias set 7
+        Ref 0: alias set 6
+          access: Parm 0 param offset:0 offset:64 size:64 max_size:64
+      Base 2: alias set 8
+        Ref 0: alias set 6
+          access: Parm 0 param offset:0 offset:0 size:64 max_size:64
+          access: Parm 0 param offset:0 offset:64 size:64 max_size:64
+          access: Parm 0 param offset:0 offset:128 size:64 max_size:64
+      Base 3: alias set 19
+        Ref 0: alias set 13
+          Every access
+      Base 4: alias set 14
+        Ref 0: alias set 13
+          Every access
+  parm 3 flags: unused
+New minimal size reached: 290
+
+Considering std::_Vector_base<_Tp, _Alloc>::~_Vector_base() [with _Tp = int; _Alloc = std::allocator<int>]/4318 with 11 size
+ to be inlined into std::vector<_Tp, _Alloc>::~vector() [with _Tp = std::vector<int>; _Alloc = std::allocator<std::vector<int> >]/3926 in /usr/include/c++/11/bits/stl_vector.h:683
+ Estimated badness is -0.068083, frequency 8.09.
+  Parm map:  -1
+Updated mod-ref summary for std::vector<_Tp, _Alloc>::~vector() [with _Tp = std::vector<int>; _Alloc = std::allocator<std::vector<int> >]/3926
+  loads:
+    Limits: 32 bases, 16 refs
+      Base 0: alias set 7
+        Ref 0: alias set 6
+          access: Parm 0 param offset:0 offset:64 size:64 max_size:64
+          access: Parm 0 param offset:0 offset:0 size:64 max_size:64
+      Base 1: alias set 8
+        Ref 0: alias set 6
+          access: Parm 0 param offset:0 offset:128 size:64 max_size:64
+          access: Parm 0 param offset:0 offset:0 size:64 max_size:64
+      Base 2: alias set 15
+        Ref 0: alias set 13
+          Every access
+  stores:
+    Limits: 32 bases, 16 refs
+  parm 0 flags: nodirectescape
+
+Considering void std::_Vector_base<_Tp, _Alloc>::_M_create_storage(std::size_t) [with _Tp = int; _Alloc = std::allocator<int>]/4588 with 20 size
+ to be inlined into std::vector<_Tp, _Alloc>::vector(const std::vector<_Tp, _Alloc>&) [with _Tp = int; _Alloc = std::allocator<int>]/4980 in /usr/include/c++/11/bits/stl_vector.h:305
+ Estimated badness is -0.055420, frequency 8.09.
+  Parm map:  -1 -2
+Updated mod-ref summary for std::vector<_Tp, _Alloc>::vector(std::vector<_Tp, _Alloc>::size_type, const value_type&, const allocator_type&) [with _Tp = std::vector<int>; _Alloc = std::allocator<std::vector<int> >]/3923
+  loads:
+    Limits: 32 bases, 16 refs
+      Base 0: alias set 7
+        Ref 0: alias set 6
+          access: Parm 0 param offset:0 offset:0 size:64 max_size:64
+      Base 1: alias set 14
+        Ref 0: alias set 13
+          Every access
+      Base 2: alias set 13
+        Ref 0: alias set 13
+          access: Parm 2 param offset:8 offset:0 size:64 max_size:64
+          access: Parm 2 param offset:0 offset:0 size:64 max_size:64
+  stores:
+    Limits: 32 bases, 16 refs
+      Base 0: alias set 12
+        Ref 0: alias set 6
+          access: Parm 0 param offset:0 offset:0 size:64 max_size:64
+          access: Parm 0 param offset:0 offset:64 size:64 max_size:64
+          access: Parm 0 param offset:0 offset:128 size:64 max_size:64
+      Base 1: alias set 7
+        Ref 0: alias set 6
+          access: Parm 0 param offset:0 offset:64 size:64 max_size:64
+      Base 2: alias set 8
+        Ref 0: alias set 6
+          access: Parm 0 param offset:0 offset:0 size:64 max_size:64
+          access: Parm 0 param offset:0 offset:64 size:64 max_size:64
+          access: Parm 0 param offset:0 offset:128 size:64 max_size:64
+      Base 3: alias set 19
+        Ref 0: alias set 13
+          Every access
+      Base 4: alias set 14
+        Ref 0: alias set 13
+          Every access
+      Base 5: alias set 15
+        Ref 0: alias set 13
+          Every access
+  parm 3 flags: unused
+
+Considering void std::_Vector_base<_Tp, _Alloc>::_M_create_storage(std::size_t) [with _Tp = int; _Alloc = std::allocator<int>]/4588 with 20 size
+ to be inlined into std::vector<_Tp, _Alloc>::vector(std::vector<_Tp, _Alloc>::size_type, const value_type&, const allocator_type&) [with _Tp = int; _Alloc = std::allocator<int>]/3911 in /usr/include/c++/11/bits/stl_vector.h:305
+ Estimated badness is -0.003701, frequency 1.00.
+  Parm map:  -2 -2
+Updated mod-ref summary for int main()/3228
+  loads:
+    Limits: 32 bases, 16 refs
+      Base 0: alias set 14
+        Ref 0: alias set 13
+          Every access
+      Base 1: alias set 5
+        Ref 0: alias set 5
+          Every access
+  stores:
+    Limits: 32 bases, 16 refs
+      Base 0: alias set 5
+        Ref 0: alias set 5
+          Every access
+node context cache: 6 hits, 7 misses, 24 initializations
+
+Reclaiming functions:
+Reclaiming variables:
+Clearing address taken flags:
+
+Deciding on functions to be inlined into all callers and removing useless speculations:
+
+Inlining std::_Vector_base<_Tp, _Alloc>::~_Vector_base() [with _Tp = std::vector<int>; _Alloc = std::allocator<std::vector<int> >]/4337 size 11.
+ Called once from std::vector<_Tp, _Alloc>::vector(std::vector<_Tp, _Alloc>::size_type, const value_type&, const allocator_type&) [with _Tp = std::vector<int>; _Alloc = std::allocator<std::vector<int> >]/3923 87 insns.
+  Parm map:  0
+Updated mod-ref summary for std::vector<_Tp, _Alloc>::vector(std::vector<_Tp, _Alloc>::size_type, const value_type&, const allocator_type&) [with _Tp = std::vector<int>; _Alloc = std::allocator<std::vector<int> >]/3923
+  loads:
+    Limits: 32 bases, 16 refs
+      Base 0: alias set 7
+        Ref 0: alias set 6
+          access: Parm 0 param offset:0 offset:0 size:64 max_size:64
+      Base 1: alias set 14
+        Ref 0: alias set 13
+          Every access
+      Base 2: alias set 13
+        Ref 0: alias set 13
+          access: Parm 2 param offset:8 offset:0 size:64 max_size:64
+          access: Parm 2 param offset:0 offset:0 size:64 max_size:64
+      Base 3: alias set 8
+        Ref 0: alias set 6
+          access: Parm 0 param offset:0 offset:128 size:64 max_size:64
+          access: Parm 0 param offset:0 offset:0 size:64 max_size:64
+  stores:
+    Limits: 32 bases, 16 refs
+      Base 0: alias set 12
+        Ref 0: alias set 6
+          access: Parm 0 param offset:0 offset:0 size:64 max_size:64
+          access: Parm 0 param offset:0 offset:64 size:64 max_size:64
+          access: Parm 0 param offset:0 offset:128 size:64 max_size:64
+      Base 1: alias set 7
+        Ref 0: alias set 6
+          access: Parm 0 param offset:0 offset:64 size:64 max_size:64
+      Base 2: alias set 8
+        Ref 0: alias set 6
+          access: Parm 0 param offset:0 offset:0 size:64 max_size:64
+          access: Parm 0 param offset:0 offset:64 size:64 max_size:64
+          access: Parm 0 param offset:0 offset:128 size:64 max_size:64
+      Base 3: alias set 19
+        Ref 0: alias set 13
+          Every access
+      Base 4: alias set 14
+        Ref 0: alias set 13
+          Every access
+      Base 5: alias set 15
+        Ref 0: alias set 13
+          Every access
+  parm 3 flags: unused
+ Inlined into std::vector<_Tp, _Alloc>::vector(std::vector<_Tp, _Alloc>::size_type, const value_type&, const allocator_type&) [with _Tp = std::vector<int>; _Alloc = std::allocator<std::vector<int> >]/3923 which now has 92 size
+Inlined 0 + speculative 0 + speculative polymorphic 0 + previously indirect 0 + virtual 0 + virtual and previously indirect 0
+Not inlined 0 + previously indirect 0 + virtual 0 + virtual and previously indirect 0 + still indirect 0 + still indirect polymorphic 0
+Removed speculations 0 (precise)
+Overall time estimate: 18904.513977 weighted by profile: 0.000000
+
+Why inlining failed?
+function body not available                       :       29 calls, 24.887507 freq, 0 count
+--param max-inline-insns-single limit reached     :        1 calls, 1.000000 freq, 0 count
+call is unlikely and code size would grow         :        5 calls, 2.000000 freq, 0 count
+IPA function summary for (static initializers for rc.cpp)/5461 inlinable
+  global time:     3.651584
+  self size:       6
+  global size:     9
+  min size:       6
+  self stack:      0
+  global stack:    0
+    size:0.000000, time:0.000000
+    size:3.000000, time:2.000000,  executed if:(not inlined)
+  calls:
+    __static_initialization_and_destruction_0.constprop/5531 inlined
+      freq:1.00
+      Stack frame offset 0, callee self size 0
+      std::ios_base::Init::Init()/5479 function body not available
+        freq:0.07 loop depth: 0 size: 2 time: 11
+         op0 is compile time invariant
+      int __cxxabiv1::__cxa_atexit(void (*)(void*), void*, void*)/5480 function body not available
+        freq:0.07 loop depth: 0 size: 4 time: 13
+         op0 is compile time invariant
+         op1 is compile time invariant
+         op2 is compile time invariant
+
+IPA summary for std::_Vector_base<_Tp, _Alloc>::~_Vector_base() [with _Tp = std::vector<int>; _Alloc = std::allocator<std::vector<int> >]/4338 is missing.
+IPA summary for std::_Vector_base<_Tp, _Alloc>::~_Vector_base() [with _Tp = int; _Alloc = std::allocator<int>]/4319 is missing.
+IPA function summary for std::_Vector_base<_Tp, _Alloc>::~_Vector_base() [with _Tp = int; _Alloc = std::allocator<int>]/4318 inlinable
+  global time:     13.416400
+  self size:       11
+  global size:     11
+  min size:       0
+  self stack:      0
+  global stack:    0
+  estimated growth:11
+    size:0.000000, time:0.000000
+    size:3.000000, time:2.000000,  executed if:(not inlined)
+    size:0.500000, time:0.500000,  executed if:(not inlined),  nonconst if:(op0[ref offset: 128] changed) && (not inlined)
+    size:0.500000, time:0.500000,  nonconst if:(op0[ref offset: 128] changed)
+    size:0.500000, time:0.500000,  executed if:(not inlined),  nonconst if:(op0[ref offset: 0] changed) && (not inlined)
+    size:2.500000, time:2.500000,  nonconst if:(op0[ref offset: 0] changed)
+    size:1.000000, time:1.000000,  nonconst if:(op0[ref offset: 128] changed || op0[ref offset: 0] changed)
+  calls:
+    void operator delete(void*, std::size_t)/5472 function body not available
+      freq:0.53 loop depth: 0 size: 3 time: 12 predicate: (op0[ref offset: 0] != 0B)
+       op1 points to local or readonly memory
+
+IPA summary for std::vector<_Tp, _Alloc>::~vector() [with _Tp = std::vector<int>; _Alloc = std::allocator<std::vector<int> >]/3927 is missing.
+IPA function summary for std::vector<_Tp, _Alloc>::~vector() [with _Tp = std::vector<int>; _Alloc = std::allocator<std::vector<int> >]/3926 inlinable
+  global time:     124.967274
+  self size:       12
+  global size:     22
+  min size:       17
+  self stack:      0
+  global stack:    0
+  estimated growth:2
+    size:11.000000, time:62.636364
+    size:3.000000, time:2.000000,  executed if:(not inlined)
+    size:0.500000, time:0.500000,  executed if:(not inlined),  nonconst if:(op0[ref offset: 64] changed) && (not inlined)
+    size:0.500000, time:0.500000,  nonconst if:(op0[ref offset: 64] changed)
+    size:0.500000, time:0.500000,  executed if:(not inlined),  nonconst if:(op0[ref offset: 0] changed) && (not inlined)
+    size:0.500000, time:0.500000,  nonconst if:(op0[ref offset: 0] changed)
+  calls:
+    std::_Vector_base<_Tp, _Alloc>::~_Vector_base() [with _Tp = std::vector<int>; _Alloc = std::allocator<std::vector<int> >]/5535 inlined
+      freq:1.00
+      Stack frame offset 0, callee self size 0
+      void operator delete(void*, std::size_t)/5472 function body not available
+        freq:0.53 loop depth: 0 size: 3 time: 12
+         op1 points to local or readonly memory
+    std::_Vector_base<_Tp, _Alloc>::~_Vector_base() [with _Tp = int; _Alloc = std::allocator<int>]/5536 inlined
+      freq:8.09
+      Stack frame offset 0, callee self size 0
+      void operator delete(void*, std::size_t)/5472 function body not available
+        freq:4.33 loop depth: 1 size: 3 time: 12
+         op1 points to local or readonly memory
+
+IPA summary for std::vector<_Tp, _Alloc>::vector(std::vector<_Tp, _Alloc>::size_type, const value_type&, const allocator_type&) [with _Tp = std::vector<int>; _Alloc = std::allocator<std::vector<int> >]/3924 is missing.
+IPA function summary for std::vector<_Tp, _Alloc>::vector(std::vector<_Tp, _Alloc>::size_type, const value_type&, const allocator_type&) [with _Tp = std::vector<int>; _Alloc = std::allocator<std::vector<int> >]/3923 inlinable
+  global time:     287.227123
+  self size:       24
+  global size:     92
+  min size:       0
+  self stack:      0
+  global stack:    0
+  estimated growth:-5
+    size:0.000000, time:0.000000
+    size:2.000000, time:0.000000,  executed if:(not inlined)
+    size:2.000000, time:2.000000,  nonconst if:(op1 changed)
+    size:3.500000, time:4.498200,  executed if:(op1 <= 384307168202282325) && (not inlined)
+    size:51.000000, time:161.190866,  executed if:(op1 <= 384307168202282325)
+    size:3.000000, time:2.998800,  executed if:(op1 <= 384307168202282325),  nonconst if:(op1 changed) && (op1 <= 384307168202282325)
+    size:5.000000, time:1.694092,  executed if:(op1 != 0) && (op1 <= 384307168202282325),  nonconst if:(op1 != 0) && (op1 changed) && (op1 <= 384307168202282325)
+  calls:
+    std::_Vector_base<_Tp, _Alloc>::~_Vector_base() [with _Tp = std::vector<int>; _Alloc = std::allocator<std::vector<int> >]/4337 inlined
+      freq:0.00
+      Stack frame offset 0, callee self size 0
+      void operator delete(void*, std::size_t)/5472 function body not available
+        freq:0.00 loop depth: 0 size: 3 time: 12 predicate: (op1 <= 384307168202282325)
+         op1 points to local or readonly memory
+    static _ForwardIterator std::__uninitialized_fill_n<_TrivialValueType>::__uninit_fill_n(_ForwardIterator, _Size, const _Tp&) [with _ForwardIterator = std::vector<int>*; _Size = long unsigned int; _Tp = std::vector<int>; bool _TrivialValueType = false]/4823 inlined
+      freq:1.00
+      Stack frame offset 0, callee self size 0
+      void __cxa_end_catch()/5476 function body not available
+        freq:0.00 loop depth: 0 size: 1 time: 10 predicate: (op1 <= 384307168202282325)
+      void __cxa_rethrow()/5475 function body not available
+        freq:0.00 loop depth: 0 size: 1 time: 10 predicate: (op1 <= 384307168202282325)
+      std::_Vector_base<_Tp, _Alloc>::~_Vector_base() [with _Tp = int; _Alloc = std::allocator<int>]/4318 call is unlikely and code size would grow
+        freq:0.00 loop depth: 1 size: 2 time: 11 callee size: 5 stack: 0 predicate: (op1 <= 384307168202282325)
+      void* __cxa_begin_catch(void*)/5474 function body not available
+        freq:0.00 loop depth: 0 size: 2 time: 11 predicate: (op1 <= 384307168202282325)
+      void* __builtin_eh_pointer(int)/5473 function body not available
+        freq:0.00 loop depth: 0 size: 0 time:  0 predicate: (op1 <= 384307168202282325)
+         op0 is compile time invariant
+      std::vector<_Tp, _Alloc>::vector(const std::vector<_Tp, _Alloc>&) [with _Tp = int; _Alloc = std::allocator<int>]/4980 inlined
+        freq:8.09
+        Stack frame offset 0, callee self size 0
+        void* __builtin_memmove(void*, const void*, long unsigned int)/5477 function body not available
+          freq:4.32 loop depth: 1 size: 4 time: 13 predicate: (op1 <= 384307168202282325)
+           op2 points to local or readonly memory
+        void std::_Vector_base<_Tp, _Alloc>::_M_create_storage(std::size_t) [with _Tp = int; _Alloc = std::allocator<int>]/5537 inlined
+          freq:8.09
+          Stack frame offset 0, callee self size 0
+          allocate.isra/5538 inlined
+            freq:4.42
+            Stack frame offset 0, callee self size 0
+            void* operator new(std::size_t)/5471 function body not available
+              freq:3.98 loop depth: 1 size: 3 time: 12 predicate: (op1 <= 384307168202282325)
+               op0 points to local or readonly memory
+            void std::__throw_bad_alloc()/5470 function body not available
+              freq:0.22 loop depth: 1 size: 1 time: 10 predicate: (op1 <= 384307168202282325)
+            void std::__throw_bad_array_new_length()/5469 function body not available
+              freq:0.22 loop depth: 1 size: 1 time: 10 predicate: (op1 <= 384307168202282325)
+            long int __builtin_expect(long int, long int)/5468 function body not available
+              freq:4.42 loop depth: 1 size: 0 time:  0 predicate: (op1 <= 384307168202282325)
+               op0 points to local or readonly memory
+               op1 is compile time invariant
+               op1 points to local or readonly memory
+    void std::_Vector_base<_Tp, _Alloc>::_M_create_storage(std::size_t) [with _Tp = std::vector<int>; _Alloc = std::allocator<std::vector<int> >]/4600 inlined
+      freq:1.00
+      Stack frame offset 0, callee self size 0
+      allocate.isra/5533 inlined
+        freq:0.55
+        Stack frame offset 0, callee self size 0
+        long int __builtin_expect(long int, long int)/5468 function body not available
+          freq:0.55 loop depth: 0 size: 0 time:  0 predicate: (op1 != 0) && (op1 <= 384307168202282325)
+           op0 points to local or readonly memory
+           op1 is compile time invariant
+           op1 points to local or readonly memory
+        void std::__throw_bad_array_new_length()/5469 function body not available
+          freq:0.03 loop depth: 0 size: 1 time: 10 predicate: (op1 > 768614336404564650) && (op1 != 0) && (op1 <= 384307168202282325)
+        void std::__throw_bad_alloc()/5470 function body not available
+          freq:0.03 loop depth: 0 size: 1 time: 10 predicate: (op1 <= 768614336404564650) && (op1 != 0) && (op1 <= 384307168202282325)
+        void* operator new(std::size_t)/5471 function body not available
+          freq:0.49 loop depth: 0 size: 3 time: 12 predicate: (op1 != 0) && (op1 <= 384307168202282325)
+           op0 points to local or readonly memory
+    void std::__throw_length_error(const char*)/5467 function body not available
+      freq:0.00 loop depth: 0 size: 2 time: 11 predicate: (op1 > 384307168202282325)
+       op0 is compile time invariant
+
+IPA function summary for int main()/3228 inlinable
+  global time:     18475.251587
+  self size:       135
+  global size:     161
+  min size:       158
+  self stack:      71
+  global stack:    71
+    size:122.500000, time:18379.798706
+    size:3.000000, time:2.000000,  executed if:(not inlined)
+  calls:
+    std::vector<_Tp, _Alloc>::~vector() [with _Tp = std::vector<int>; _Alloc = std::allocator<std::vector<int> >]/3926 call is unlikely and code size would grow
+      freq:0.00 loop depth: 0 size: 2 time: 11 callee size:11 stack: 0
+       op0 is compile time invariant
+       op0 points to local or readonly memory
+    std::_Vector_base<_Tp, _Alloc>::~_Vector_base() [with _Tp = int; _Alloc = std::allocator<int>]/4318 call is unlikely and code size would grow
+      freq:0.00 loop depth: 0 size: 2 time: 11 callee size: 5 stack: 0
+       op0 is compile time invariant
+       op0 points to local or readonly memory
+    std::vector<_Tp, _Alloc>::~vector() [with _Tp = std::vector<int>; _Alloc = std::allocator<std::vector<int> >]/3926 call is unlikely and code size would grow
+      freq:1.00 loop depth: 0 size: 2 time: 11 callee size:11 stack: 0
+       op0 is compile time invariant
+       op0 points to local or readonly memory
+    std::basic_ostream<_CharT, _Traits>& std::__ostream_insert(std::basic_ostream<_CharT, _Traits>&, const _CharT*, std::streamsize) [with _CharT = char; _Traits = std::char_traits<char>]/5478 function body not available
+      freq:1.00 loop depth: 0 size: 4 time: 13
+       op1 is compile time invariant
+       op1 points to local or readonly memory
+       op2 is compile time invariant
+    std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(int) [with _CharT = char; _Traits = std::char_traits<char>]/5464 function body not available
+      freq:1.00 loop depth: 0 size: 4 time: 13
+       op0 is compile time invariant
+    std::_Vector_base<_Tp, _Alloc>::~_Vector_base() [with _Tp = int; _Alloc = std::allocator<int>]/4318 call is unlikely and code size would grow
+      freq:1.00 loop depth: 0 size: 2 time: 11 callee size: 5 stack: 0
+       op0 is compile time invariant
+       op0 points to local or readonly memory
+    std::vector<_Tp, _Alloc>::vector(std::vector<_Tp, _Alloc>::size_type, const value_type&, const allocator_type&) [with _Tp = std::vector<int>; _Alloc = std::allocator<std::vector<int> >]/3923 --param max-inline-insns-single limit reached
+      freq:1.00 loop depth: 0 size: 5 time: 14 callee size:46 stack: 0
+       op0 is compile time invariant
+       op0 points to local or readonly memory
+       op1 points to local or readonly memory
+       op2 is compile time invariant
+       op2 points to local or readonly memory
+       op3 is compile time invariant
+       op3 points to local or readonly memory
+    std::vector<_Tp, _Alloc>::vector(std::vector<_Tp, _Alloc>::size_type, const value_type&, const allocator_type&) [with _Tp = int; _Alloc = std::allocator<int>]/3911 inlined
+      freq:1.00
+      Stack frame offset 71, callee self size 0
+      void std::vector<_Tp, _Alloc>::_M_fill_initialize(std::vector<_Tp, _Alloc>::size_type, const value_type&) [with _Tp = int; _Alloc = std::allocator<int>]/4320 inlined
+        freq:1.00
+        Stack frame offset 71, callee self size 0
+        _OutputIterator std::__fill_n_a(_OutputIterator, _Size, const _Tp&, std::random_access_iterator_tag) [with _OutputIterator = int*; _Size = long unsigned int; _Tp = int]/5532 inlined
+          freq:0.66
+          Stack frame offset 71, callee self size 0
+      void std::_Vector_base<_Tp, _Alloc>::_M_create_storage(std::size_t) [with _Tp = int; _Alloc = std::allocator<int>]/4588 inlined
+        freq:1.00
+        Stack frame offset 71, callee self size 0
+        allocate.isra/5534 inlined
+          freq:0.55
+          Stack frame offset 71, callee self size 0
+          long int __builtin_expect(long int, long int)/5468 function body not available
+            freq:0.55 loop depth: 0 size: 0 time:  0
+             op0 points to local or readonly memory
+             op1 is compile time invariant
+             op1 points to local or readonly memory
+          void std::__throw_bad_array_new_length()/5469 function body not available
+            freq:0.03 loop depth: 0 size: 1 time: 10
+          void std::__throw_bad_alloc()/5470 function body not available
+            freq:0.03 loop depth: 0 size: 1 time: 10
+          void* operator new(std::size_t)/5471 function body not available
+            freq:0.49 loop depth: 0 size: 3 time: 12
+             op0 points to local or readonly memory
+      void std::__throw_length_error(const char*)/5467 function body not available
+        freq:0.00 loop depth: 0 size: 2 time: 11
+         op0 is compile time invariant
+    std::basic_istream<_CharT, _Traits>& std::basic_istream<_CharT, _Traits>::operator>>(int&) [with _CharT = char; _Traits = std::char_traits<char>]/5462 function body not available
+      freq:1.00 loop depth: 0 size: 3 time: 12
+       op1 is compile time invariant
+       op1 points to local or readonly memory
+    std::basic_istream<_CharT, _Traits>& std::basic_istream<_CharT, _Traits>::operator>>(int&) [with _CharT = char; _Traits = std::char_traits<char>]/5462 function body not available
+      freq:1.00 loop depth: 0 size: 4 time: 13
+       op0 is compile time invariant
+       op1 is compile time invariant
+       op1 points to local or readonly memory
+
+
+Reclaiming functions: std::_Vector_base<_Tp, _Alloc>::~_Vector_base() [with _Tp = std::vector<int>; _Alloc = std::allocator<std::vector<int> >]/4338
+Reclaiming variables:
+Clearing address taken flags:
+Symbol table:
+
+_ZN9__gnu_cxx13new_allocatorIiE8allocateEmPKv.isra.0/5538 (allocate.isra) @0x7f1148076000
+  Type: function definition analyzed
+  Visibility: visibility_specified
+  next sharing asm name: 5534
+  References: 
+  Referring: 
+  Function allocate.isra/5538 is inline copy in std::vector<_Tp, _Alloc>::vector(std::vector<_Tp, _Alloc>::size_type, const value_type&, const allocator_type&) [with _Tp = std::vector<int>; _Alloc = std::allocator<std::vector<int> >]/3923
+  Clone of _ZN9__gnu_cxx13new_allocatorIiE8allocateEmPKv.isra.0/5534
+  Availability: local
+  Function flags: count:4747582473 (estimated locally) local decl_is_malloc
+  Called by: _ZNSt12_Vector_baseIiSaIiEE17_M_create_storageEm/5537 (inlined) (4747582473 (estimated locally),4.42 per call) (can throw external) 
+  Calls: _Znwm/5471 (4272824223 (estimated locally),3.98 per call) (can throw external) _ZSt17__throw_bad_allocv/5470 (237379125 (estimated locally),0.22 per call) (can throw external) _ZSt28__throw_bad_array_new_lengthv/5469 (237379125 (estimated locally),0.22 per call) (can throw external) __builtin_expect/5468 (4747582473 (estimated locally),4.42 per call) 
+_ZNSt12_Vector_baseIiSaIiEE17_M_create_storageEm/5537 (void std::_Vector_base<_Tp, _Alloc>::_M_create_storage(std::size_t) [with _Tp = int; _Alloc = std::allocator<int>]) @0x7f1148076ee0
+  Type: function definition analyzed
+  Visibility: public weak comdat one_only visibility_specified
+  next sharing asm name: 4588
+  References: 
+  Referring: 
+  Function void std::_Vector_base<_Tp, _Alloc>::_M_create_storage(std::size_t) [with _Tp = int; _Alloc = std::allocator<int>]/5537 is inline copy in std::vector<_Tp, _Alloc>::vector(std::vector<_Tp, _Alloc>::size_type, const value_type&, const allocator_type&) [with _Tp = std::vector<int>; _Alloc = std::allocator<std::vector<int> >]/3923
+  Clone of _ZNSt12_Vector_baseIiSaIiEE17_M_create_storageEm/4588
+  Availability: local
+  Function flags: count:8684072542 (estimated locally) body local
+  Called by: _ZNSt6vectorIiSaIiEEC2ERKS1_/4980 (inlined) (8684072542 (estimated locally),8.09 per call) (can throw external) 
+  Calls: _ZN9__gnu_cxx13new_allocatorIiE8allocateEmPKv.isra.0/5538 (inlined) (4747582473 (estimated locally),4.42 per call) (can throw external) 
+_ZNSt12_Vector_baseIiSaIiEED2Ev/5536 (std::_Vector_base<_Tp, _Alloc>::~_Vector_base() [with _Tp = int; _Alloc = std::allocator<int>]) @0x7f1148065dd0
+  Type: function definition analyzed
+  Visibility: public weak comdat one_only visibility_specified
+  next sharing asm name: 4318
+  References: 
+  Referring: 
+  Function std::_Vector_base<_Tp, _Alloc>::~_Vector_base() [with _Tp = int; _Alloc = std::allocator<int>]/5536 is inline copy in std::vector<_Tp, _Alloc>::~vector() [with _Tp = std::vector<int>; _Alloc = std::allocator<std::vector<int> >]/3926
+  Clone of _ZNSt12_Vector_baseIiSaIiEED2Ev/4318
+  Availability: local
+  Function flags: count:955630225 (estimated locally) body local
+  Called by: _ZNSt6vectorIS_IiSaIiEESaIS1_EED2Ev/3926 (inlined) (955630225 (estimated locally),8.09 per call) 
+  Calls: _ZdlPvm/5472 (510975481 (estimated locally),4.33 per call) 
+_ZNSt12_Vector_baseISt6vectorIiSaIiEESaIS2_EED2Ev/5535 (std::_Vector_base<_Tp, _Alloc>::~_Vector_base() [with _Tp = std::vector<int>; _Alloc = std::allocator<std::vector<int> >]) @0x7f1148065bb0
+  Type: function definition analyzed
+  Visibility: public weak comdat visibility_specified
+  next sharing asm name: 4337
+  References: 
+  Referring: 
+  Function std::_Vector_base<_Tp, _Alloc>::~_Vector_base() [with _Tp = std::vector<int>; _Alloc = std::allocator<std::vector<int> >]/5535 is inline copy in std::vector<_Tp, _Alloc>::~vector() [with _Tp = std::vector<int>; _Alloc = std::allocator<std::vector<int> >]/3926
+  Clone of _ZNSt12_Vector_baseISt6vectorIiSaIiEESaIS2_EED2Ev/4337
+  Availability: local
+  Function flags: count:118111600 (estimated locally) body local
+  Called by: _ZNSt6vectorIS_IiSaIiEESaIS1_EED2Ev/3926 (inlined) (118111600 (estimated locally),1.00 per call) 
+  Calls: _ZdlPvm/5472 (63154272 (estimated locally),0.53 per call) 
+_ZN9__gnu_cxx13new_allocatorIiE8allocateEmPKv.isra.0/5534 (allocate.isra) @0x7f1148065ee0
+  Type: function definition analyzed
+  Visibility: visibility_specified
+  previous sharing asm name: 5538
+  References: 
+  Referring: 
+  Function allocate.isra/5534 is inline copy in int main()/3228
+  Clone of _ZN9__gnu_cxx13new_allocatorIiE8allocateEmPKv/4910
+  Availability: local
+  Function flags: count:1662437 (estimated locally) local decl_is_malloc
+  Called by: _ZNSt12_Vector_baseIiSaIiEE17_M_create_storageEm/4588 (inlined) (1662437 (estimated locally),0.55 per call) (can throw external) 
+  Calls: __builtin_expect/5468 (1662437 (estimated locally),0.55 per call) _ZSt28__throw_bad_array_new_lengthv/5469 (83122 (estimated locally),0.03 per call) (can throw external) _ZSt17__throw_bad_allocv/5470 (83122 (estimated locally),0.03 per call) (can throw external) _Znwm/5471 (1496193 (estimated locally),0.49 per call) (can throw external) 
+_ZN9__gnu_cxx13new_allocatorISt6vectorIiSaIiEEE8allocateEmPKv.isra.0/5533 (allocate.isra) @0x7f114803d440
+  Type: function definition analyzed
+  Visibility: visibility_specified
+  References: 
+  Referring: 
+  Function allocate.isra/5533 is inline copy in std::vector<_Tp, _Alloc>::vector(std::vector<_Tp, _Alloc>::size_type, const value_type&, const allocator_type&) [with _Tp = std::vector<int>; _Alloc = std::allocator<std::vector<int> >]/3923
+  Clone of _ZN9__gnu_cxx13new_allocatorISt6vectorIiSaIiEEE8allocateEmPKv/4913
+  Availability: local
+  Function flags: count:586779852 (estimated locally) local decl_is_malloc
+  Called by: _ZNSt12_Vector_baseISt6vectorIiSaIiEESaIS2_EE17_M_create_storageEm/4600 (inlined) (586779852 (estimated locally),0.55 per call) (can throw external) 
+  Calls: __builtin_expect/5468 (586779852 (estimated locally),0.55 per call) _ZSt28__throw_bad_array_new_lengthv/5469 (29338993 (estimated locally),0.03 per call) (can throw external) _ZSt17__throw_bad_allocv/5470 (29338993 (estimated locally),0.03 per call) (can throw external) _Znwm/5471 (528101867 (estimated locally),0.49 per call) (can throw external) 
+_ZSt10__fill_n_aIPimiET_S1_T0_RKT1_St26random_access_iterator_tag.part.0.isra.0/5532 (_OutputIterator std::__fill_n_a(_OutputIterator, _Size, const _Tp&, std::random_access_iterator_tag) [with _OutputIterator = int*; _Size = long unsigned int; _Tp = int]) @0x7f114803d330
+  Type: function definition analyzed
+  Visibility: artificial
+  References: 
+  Referring: 
+  Function _OutputIterator std::__fill_n_a(_OutputIterator, _Size, const _Tp&, std::random_access_iterator_tag) [with _OutputIterator = int*; _Size = long unsigned int; _Tp = int]/5532 is inline copy in int main()/3228
+  Clone of _ZSt10__fill_n_aIPimiET_S1_T0_RKT1_St26random_access_iterator_tag.part.0/5500
+  Availability: local
+  Function flags: count:2006966 (estimated locally) local split_part
+  Called by: _ZNSt6vectorIiSaIiEE18_M_fill_initializeEmRKi/4320 (inlined) (2006966 (estimated locally),0.66 per call) 
+  Calls: 
+_Z41__static_initialization_and_destruction_0ii.constprop.0/5531 (__static_initialization_and_destruction_0.constprop) @0x7f114803d990
+  Type: function definition analyzed
+  Visibility: artificial
+  References: _ZStL8__ioinit/1878 (addr) _ZNSt8ios_base4InitD1Ev/5481 (addr) _ZStL8__ioinit/1878 (addr) __dso_handle/5482 (addr) 
+  Referring: 
+  Function __static_initialization_and_destruction_0.constprop/5531 is inline copy in (static initializers for rc.cpp)/5461
+  Clone of _Z41__static_initialization_and_destruction_0ii/5238
+  Availability: local
+  Function flags: count:1073741824 (estimated locally) local only_called_at_startup executed_once
+  Called by: _GLOBAL__sub_I_main/5461 (inlined) (1073741824 (estimated locally),1.00 per call) 
+  Calls: _ZNSt8ios_base4InitC1Ev/5479 (73890618 (estimated locally),0.07 per call) (can throw external) __cxa_atexit/5480 (73890618 (estimated locally),0.07 per call) 
+_ZSt10__fill_n_aIPimiET_S1_T0_RKT1_St26random_access_iterator_tag.part.0/5500 (_OutputIterator std::__fill_n_a(_OutputIterator, _Size, const _Tp&, std::random_access_iterator_tag) [with _OutputIterator = int*; _Size = long unsigned int; _Tp = int]) @0x7f114a088660
+  Type: function
+  Body removed by symtab_remove_unreachable_nodes
+  Visibility: prevailing_def_ironly artificial
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: count:118111600 (estimated locally) body split_part
+  Called by: 
+  Calls: 
+__dso_handle/5482 (void* __dso_handle) @0x7f113fab2600
+  Type: variable
+  Body removed by symtab_remove_unreachable_nodes
+  Visibility: external public visibility_specified visibility:hidden artificial
+  References: 
+  Referring: _Z41__static_initialization_and_destruction_0ii.constprop.0/5531 (addr) 
+  Availability: not_available
+  Varpool flags:
+_ZNSt8ios_base4InitD1Ev/5481 (std::ios_base::Init::~Init()) @0x7f113fabe000
+  Type: function
+  Visibility: external public visibility_specified
+  Address is taken.
+  References: 
+  Referring: _Z41__static_initialization_and_destruction_0ii.constprop.0/5531 (addr) 
+  Availability: not_available
+  Function flags:
+  Called by: 
+  Calls: 
+__cxa_atexit/5480 (int __cxxabiv1::__cxa_atexit(void (*)(void*), void*, void*)) @0x7f113fa40ee0
+  Type: function
+  Visibility: external public visibility_specified artificial
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: _Z41__static_initialization_and_destruction_0ii.constprop.0/5531 (73890618 (estimated locally),0.07 per call) 
+  Calls: 
+_ZNSt8ios_base4InitC1Ev/5479 (std::ios_base::Init::Init()) @0x7f113fa40dd0
+  Type: function
+  Visibility: external public visibility_specified
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: _Z41__static_initialization_and_destruction_0ii.constprop.0/5531 (73890618 (estimated locally),0.07 per call) (can throw external) 
+  Calls: 
+_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l/5478 (std::basic_ostream<_CharT, _Traits>& std::__ostream_insert(std::basic_ostream<_CharT, _Traits>&, const _CharT*, std::streamsize) [with _CharT = char; _Traits = std::char_traits<char>]) @0x7f113fa40cc0
+  Type: function
+  Visibility: external public visibility_specified
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: main/3228 (3042075 (estimated locally),1.00 per call) 
+  Calls: 
+memmove/5477 (void* __builtin_memmove(void*, const void*, long unsigned int)) @0x7f113fa40bb0
+  Type: function
+  Visibility: external public visibility_specified artificial
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: _ZNSt6vectorIiSaIiEEC2ERKS1_/4980 (4643373585 (estimated locally),4.32 per call) 
+  Calls: 
+__cxa_end_catch/5476 (void __cxa_end_catch()) @0x7f113fa40aa0
+  Type: function
+  Visibility: external public visibility_specified artificial
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: _ZNSt22__uninitialized_fill_nILb0EE15__uninit_fill_nIPSt6vectorIiSaIiEEmS4_EET_S6_T0_RKT1_/4823 (0 (precise),0.00 per call) 
+  Calls: 
+__cxa_rethrow/5475 (void __cxa_rethrow()) @0x7f113fa40990
+  Type: function
+  Visibility: external public visibility_specified artificial
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: _ZNSt22__uninitialized_fill_nILb0EE15__uninit_fill_nIPSt6vectorIiSaIiEEmS4_EET_S6_T0_RKT1_/4823 (0 (precise),0.00 per call) 
+  Calls: 
+__cxa_begin_catch/5474 (void* __cxa_begin_catch(void*)) @0x7f113fa40880
+  Type: function
+  Visibility: external public visibility_specified artificial
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: _ZNSt22__uninitialized_fill_nILb0EE15__uninit_fill_nIPSt6vectorIiSaIiEEmS4_EET_S6_T0_RKT1_/4823 (0 (precise),0.00 per call) 
+  Calls: 
+__builtin_eh_pointer/5473 (void* __builtin_eh_pointer(int)) @0x7f113fa40770
+  Type: function
+  Visibility: external public visibility_specified artificial
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: _ZNSt22__uninitialized_fill_nILb0EE15__uninit_fill_nIPSt6vectorIiSaIiEEmS4_EET_S6_T0_RKT1_/4823 (0 (precise),0.00 per call) 
+  Calls: 
+_ZdlPvm/5472 (void operator delete(void*, std::size_t)) @0x7f113fa40660
+  Type: function
+  Visibility: external public visibility_specified
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: replaceable_operator_delete
+  Called by: _ZNSt12_Vector_baseIiSaIiEED2Ev/5536 (510975481 (estimated locally),4.33 per call) _ZNSt12_Vector_baseISt6vectorIiSaIiEESaIS2_EED2Ev/5535 (63154272 (estimated locally),0.53 per call) _ZNSt12_Vector_baseISt6vectorIiSaIiEESaIS2_EED2Ev/4337 (0 (precise),0.00 per call) _ZNSt12_Vector_baseIiSaIiEED2Ev/4318 (574129753 (estimated locally),0.53 per call) 
+  Calls: 
+_Znwm/5471 (void* operator new(std::size_t)) @0x7f113fa40550
+  Type: function
+  Visibility: external public visibility_specified
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: decl_is_malloc replaceable_operator_new
+  Called by: _ZN9__gnu_cxx13new_allocatorIiE8allocateEmPKv.isra.0/5538 (4272824223 (estimated locally),3.98 per call) (can throw external) _ZN9__gnu_cxx13new_allocatorIiE8allocateEmPKv.isra.0/5534 (1496193 (estimated locally),0.49 per call) (can throw external) _ZN9__gnu_cxx13new_allocatorISt6vectorIiSaIiEEE8allocateEmPKv.isra.0/5533 (528101867 (estimated locally),0.49 per call) (can throw external) 
+  Calls: 
+_ZSt17__throw_bad_allocv/5470 (void std::__throw_bad_alloc()) @0x7f113fa40440
+  Type: function
+  Visibility: external public visibility_specified
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: _ZN9__gnu_cxx13new_allocatorIiE8allocateEmPKv.isra.0/5538 (237379125 (estimated locally),0.22 per call) (can throw external) _ZN9__gnu_cxx13new_allocatorIiE8allocateEmPKv.isra.0/5534 (83122 (estimated locally),0.03 per call) (can throw external) _ZN9__gnu_cxx13new_allocatorISt6vectorIiSaIiEEE8allocateEmPKv.isra.0/5533 (29338993 (estimated locally),0.03 per call) (can throw external) 
+  Calls: 
+_ZSt28__throw_bad_array_new_lengthv/5469 (void std::__throw_bad_array_new_length()) @0x7f113fa40330
+  Type: function
+  Visibility: external public visibility_specified
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: _ZN9__gnu_cxx13new_allocatorIiE8allocateEmPKv.isra.0/5538 (237379125 (estimated locally),0.22 per call) (can throw external) _ZN9__gnu_cxx13new_allocatorIiE8allocateEmPKv.isra.0/5534 (83122 (estimated locally),0.03 per call) (can throw external) _ZN9__gnu_cxx13new_allocatorISt6vectorIiSaIiEEE8allocateEmPKv.isra.0/5533 (29338993 (estimated locally),0.03 per call) (can throw external) 
+  Calls: 
+__builtin_expect/5468 (long int __builtin_expect(long int, long int)) @0x7f113fa40220
+  Type: function
+  Visibility: external public visibility_specified artificial
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: _ZN9__gnu_cxx13new_allocatorIiE8allocateEmPKv.isra.0/5538 (4747582473 (estimated locally),4.42 per call) _ZN9__gnu_cxx13new_allocatorIiE8allocateEmPKv.isra.0/5534 (1662437 (estimated locally),0.55 per call) _ZN9__gnu_cxx13new_allocatorISt6vectorIiSaIiEEE8allocateEmPKv.isra.0/5533 (586779852 (estimated locally),0.55 per call) 
+  Calls: 
+_ZSt20__throw_length_errorPKc/5467 (void std::__throw_length_error(const char*)) @0x7f113fa40110
+  Type: function
+  Visibility: external public visibility_specified
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: _ZNSt6vectorIS_IiSaIiEESaIS1_EEC2EmRKS1_RKS2_/3923 (429496 (estimated locally),0.00 per call) (can throw external) _ZNSt6vectorIiSaIiEEC2EmRKiRKS0_/3911 (1217 (estimated locally),0.00 per call) (can throw external) 
+  Calls: 
+__gxx_personality_v0/5466 (__gxx_personality_v0) @0x7f113fa40000
+  Type: function
+  Visibility: external public artificial
+  Address is taken.
+  References: 
+  Referring: _ZNSt22__uninitialized_fill_nILb0EE15__uninit_fill_nIPSt6vectorIiSaIiEEmS4_EET_S6_T0_RKT1_/4823 (addr) 
+  Availability: not_available
+  Function flags:
+  Called by: 
+  Calls: 
+_ZSt4cout/5465 (std::ostream std::cout) @0x7f113f9fea80
+  Type: variable
+  Body removed by symtab_remove_unreachable_nodes
+  Visibility: external public visibility_specified
+  References: 
+  Referring: main/3228 (addr) 
+  Availability: not_available
+  Varpool flags:
+_ZNSolsEi/5464 (std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(int) [with _CharT = char; _Traits = std::char_traits<char>]) @0x7f113fdbaee0
+  Type: function
+  Visibility: external public visibility_specified
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: main/3228 (3042075 (estimated locally),1.00 per call) 
+  Calls: 
+_ZSt3cin/5463 (std::istream std::cin) @0x7f113f9fea00
+  Type: variable
+  Body removed by symtab_remove_unreachable_nodes
+  Visibility: external public visibility_specified
+  References: 
+  Referring: main/3228 (addr) 
+  Availability: not_available
+  Varpool flags:
+_ZNSirsERi/5462 (std::basic_istream<_CharT, _Traits>& std::basic_istream<_CharT, _Traits>::operator>>(int&) [with _CharT = char; _Traits = std::char_traits<char>]) @0x7f113fdbadd0
+  Type: function
+  Visibility: external public visibility_specified
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: main/3228 (3042075 (estimated locally),1.00 per call) (can throw external) main/3228 (3042075 (estimated locally),1.00 per call) (can throw external) 
+  Calls: 
+_GLOBAL__sub_I_main/5461 ((static initializers for rc.cpp)) @0x7f113fdba000
+  Type: function definition analyzed
+  Visibility: prevailing_def_ironly artificial constructor
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) body only_called_at_startup static_constructor (priority:65535) executed_once
+  Called by: 
+  Calls: _Z41__static_initialization_and_destruction_0ii.constprop.0/5531 (inlined) (1073741824 (estimated locally),1.00 per call) 
+_Z41__static_initialization_and_destruction_0ii/5238 (void __static_initialization_and_destruction_0(int, int)) @0x7f113fd55770
+  Type: function
+  Body removed by symtab_remove_unreachable_nodes
+  Visibility: prevailing_def_ironly artificial
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: count:1073741823 (estimated locally) body only_called_at_startup executed_once
+  Called by: 
+  Calls: 
+_ZNSt6vectorIiSaIiEEC2ERKS1_/4980 (std::vector<_Tp, _Alloc>::vector(const std::vector<_Tp, _Alloc>&) [with _Tp = int; _Alloc = std::allocator<int>]) @0x7f113fc99440
+  Type: function definition analyzed
+  Visibility: public weak comdat comdat_group:_ZNSt6vectorIiSaIiEEC5ERKS1_ one_only visibility_specified
+  References: 
+  Referring: 
+  Function std::vector<_Tp, _Alloc>::vector(const std::vector<_Tp, _Alloc>&) [with _Tp = int; _Alloc = std::allocator<int>]/4980 is inline copy in std::vector<_Tp, _Alloc>::vector(std::vector<_Tp, _Alloc>::size_type, const value_type&, const allocator_type&) [with _Tp = std::vector<int>; _Alloc = std::allocator<std::vector<int> >]/3923
+  Availability: available
+  Function flags: count:8684072542 (estimated locally) body
+  Called by: _ZNSt22__uninitialized_fill_nILb0EE15__uninit_fill_nIPSt6vectorIiSaIiEEmS4_EET_S6_T0_RKT1_/4823 (inlined) (8684072542 (estimated locally),8.09 per call) 
+  Calls: memmove/5477 (4643373585 (estimated locally),4.32 per call) _ZNSt12_Vector_baseIiSaIiEE17_M_create_storageEm/5537 (inlined) (8684072542 (estimated locally),8.09 per call) (can throw external) 
+_ZN9__gnu_cxx13new_allocatorISt6vectorIiSaIiEEE8allocateEmPKv/4913 (_Tp* __gnu_cxx::new_allocator<_Tp>::allocate(__gnu_cxx::new_allocator<_Tp>::size_type, const void*) [with _Tp = std::vector<int>]) @0x7f113fc56bb0
+  Type: function
+  Body removed by symtab_remove_unreachable_nodes
+  Visibility: externally_visible public weak comdat comdat_group:_ZN9__gnu_cxx13new_allocatorISt6vectorIiSaIiEEE8allocateEmPKv one_only visibility_specified
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: count:1073741824 (estimated locally) body decl_is_malloc
+  Called by: 
+  Calls: 
+_ZN9__gnu_cxx13new_allocatorIiE8allocateEmPKv/4910 (_Tp* __gnu_cxx::new_allocator<_Tp>::allocate(__gnu_cxx::new_allocator<_Tp>::size_type, const void*) [with _Tp = int]) @0x7f113fc56880
+  Type: function
+  Body removed by symtab_remove_unreachable_nodes
+  Visibility: externally_visible public weak comdat comdat_group:_ZN9__gnu_cxx13new_allocatorIiE8allocateEmPKv one_only visibility_specified
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: count:1073741824 (estimated locally) body decl_is_malloc
+  Called by: 
+  Calls: 
+_ZNSt22__uninitialized_fill_nILb0EE15__uninit_fill_nIPSt6vectorIiSaIiEEmS4_EET_S6_T0_RKT1_/4823 (static _ForwardIterator std::__uninitialized_fill_n<_TrivialValueType>::__uninit_fill_n(_ForwardIterator, _Size, const _Tp&) [with _ForwardIterator = std::vector<int>*; _Size = long unsigned int; _Tp = std::vector<int>; bool _TrivialValueType = false]) @0x7f113ffaedd0
+  Type: function definition analyzed
+  Visibility: public weak comdat comdat_group:_ZNSt22__uninitialized_fill_nILb0EE15__uninit_fill_nIPSt6vectorIiSaIiEEmS4_EET_S6_T0_RKT1_ one_only visibility_specified
+  References: __gxx_personality_v0/5466 (addr) 
+  Referring: 
+  Function static _ForwardIterator std::__uninitialized_fill_n<_TrivialValueType>::__uninit_fill_n(_ForwardIterator, _Size, const _Tp&) [with _ForwardIterator = std::vector<int>*; _Size = long unsigned int; _Tp = std::vector<int>; bool _TrivialValueType = false]/4823 is inline copy in std::vector<_Tp, _Alloc>::vector(std::vector<_Tp, _Alloc>::size_type, const value_type&, const allocator_type&) [with _Tp = std::vector<int>; _Alloc = std::allocator<std::vector<int> >]/3923
+  Availability: available
+  Function flags: count:1073312329 (estimated locally) body
+  Called by: _ZNSt6vectorIS_IiSaIiEESaIS1_EEC2EmRKS1_RKS2_/3923 (inlined) (1073312329 (estimated locally),1.00 per call) 
+  Calls: __cxa_end_catch/5476 (0 (precise),0.00 per call) __cxa_rethrow/5475 (0 (precise),0.00 per call) _ZNSt12_Vector_baseIiSaIiEED2Ev/4318 (0 (precise),0.00 per call) __cxa_begin_catch/5474 (0 (precise),0.00 per call) __builtin_eh_pointer/5473 (0 (precise),0.00 per call) _ZNSt6vectorIiSaIiEEC2ERKS1_/4980 (inlined) (8684072542 (estimated locally),8.09 per call) 
+_ZNSt12_Vector_baseISt6vectorIiSaIiEESaIS2_EE17_M_create_storageEm/4600 (void std::_Vector_base<_Tp, _Alloc>::_M_create_storage(std::size_t) [with _Tp = std::vector<int>; _Alloc = std::allocator<std::vector<int> >]) @0x7f11401a2220
+  Type: function definition analyzed
+  Visibility: public weak comdat comdat_group:_ZNSt12_Vector_baseISt6vectorIiSaIiEESaIS2_EE17_M_create_storageEm one_only visibility_specified
+  References: 
+  Referring: 
+  Function void std::_Vector_base<_Tp, _Alloc>::_M_create_storage(std::size_t) [with _Tp = std::vector<int>; _Alloc = std::allocator<std::vector<int> >]/4600 is inline copy in std::vector<_Tp, _Alloc>::vector(std::vector<_Tp, _Alloc>::size_type, const value_type&, const allocator_type&) [with _Tp = std::vector<int>; _Alloc = std::allocator<std::vector<int> >]/3923
+  Availability: available
+  Function flags: count:1073312329 (estimated locally) body
+  Called by: _ZNSt6vectorIS_IiSaIiEESaIS1_EEC2EmRKS1_RKS2_/3923 (inlined) (1073312329 (estimated locally),1.00 per call) (can throw external) 
+  Calls: _ZN9__gnu_cxx13new_allocatorISt6vectorIiSaIiEEE8allocateEmPKv.isra.0/5533 (inlined) (586779852 (estimated locally),0.55 per call) (can throw external) 
+_ZNSt12_Vector_baseIiSaIiEE17_M_create_storageEm/4588 (void std::_Vector_base<_Tp, _Alloc>::_M_create_storage(std::size_t) [with _Tp = int; _Alloc = std::allocator<int>]) @0x7f114017a550
+  Type: function definition analyzed
+  Visibility: public weak comdat comdat_group:_ZNSt12_Vector_baseIiSaIiEE17_M_create_storageEm one_only visibility_specified
+  previous sharing asm name: 5537
+  References: 
+  Referring: 
+  Function void std::_Vector_base<_Tp, _Alloc>::_M_create_storage(std::size_t) [with _Tp = int; _Alloc = std::allocator<int>]/4588 is inline copy in int main()/3228
+  Availability: available
+  Function flags: count:3040858 (estimated locally) body
+  Called by: _ZNSt6vectorIiSaIiEEC2EmRKiRKS0_/3911 (inlined) (3040858 (estimated locally),1.00 per call) (can throw external) 
+  Calls: _ZN9__gnu_cxx13new_allocatorIiE8allocateEmPKv.isra.0/5534 (inlined) (1662437 (estimated locally),0.55 per call) (can throw external) 
+_ZNSt12_Vector_baseISt6vectorIiSaIiEESaIS2_EED2Ev/4337 (std::_Vector_base<_Tp, _Alloc>::~_Vector_base() [with _Tp = std::vector<int>; _Alloc = std::allocator<std::vector<int> >]) @0x7f11403e9bb0
+  Type: function definition analyzed
+  Visibility: public weak comdat visibility_specified
+  previous sharing asm name: 5535
+  References: 
+  Referring: 
+  Function std::_Vector_base<_Tp, _Alloc>::~_Vector_base() [with _Tp = std::vector<int>; _Alloc = std::allocator<std::vector<int> >]/4337 is inline copy in std::vector<_Tp, _Alloc>::vector(std::vector<_Tp, _Alloc>::size_type, const value_type&, const allocator_type&) [with _Tp = std::vector<int>; _Alloc = std::allocator<std::vector<int> >]/3923
+  Availability: available
+  Function flags: count:0 (precise) body
+  Called by: _ZNSt6vectorIS_IiSaIiEESaIS1_EEC2EmRKS1_RKS2_/3923 (inlined) (0 (precise),0.00 per call) 
+  Calls: _ZdlPvm/5472 (0 (precise),0.00 per call) 
+_ZNSt6vectorIiSaIiEE18_M_fill_initializeEmRKi/4320 (void std::vector<_Tp, _Alloc>::_M_fill_initialize(std::vector<_Tp, _Alloc>::size_type, const value_type&) [with _Tp = int; _Alloc = std::allocator<int>]) @0x7f11403df990
+  Type: function definition analyzed
+  Visibility: public weak comdat comdat_group:_ZNSt6vectorIiSaIiEE18_M_fill_initializeEmRKi one_only visibility_specified
+  References: 
+  Referring: 
+  Function void std::vector<_Tp, _Alloc>::_M_fill_initialize(std::vector<_Tp, _Alloc>::size_type, const value_type&) [with _Tp = int; _Alloc = std::allocator<int>]/4320 is inline copy in int main()/3228
+  Availability: available
+  Function flags: count:3040858 (estimated locally) body
+  Called by: _ZNSt6vectorIiSaIiEEC2EmRKiRKS0_/3911 (inlined) (3040858 (estimated locally),1.00 per call) 
+  Calls: _ZSt10__fill_n_aIPimiET_S1_T0_RKT1_St26random_access_iterator_tag.part.0.isra.0/5532 (inlined) (2006966 (estimated locally),0.66 per call) 
+_ZNSt12_Vector_baseIiSaIiEED1Ev/4319 (std::_Vector_base<_Tp, _Alloc>::~_Vector_base() [with _Tp = int; _Alloc = std::allocator<int>]) @0x7f11403df880
+  Type: function definition analyzed alias cpp_implicit_alias
+  Visibility: externally_visible public weak comdat comdat_group:_ZNSt12_Vector_baseIiSaIiEED5Ev one_only visibility_specified
+  Same comdat group as: _ZNSt12_Vector_baseIiSaIiEED2Ev/4318
+  References: _ZNSt12_Vector_baseIiSaIiEED2Ev/4318 (alias) 
+  Referring: 
+  Availability: available
+  Function flags:
+  Called by: 
+  Calls: 
+_ZNSt12_Vector_baseIiSaIiEED2Ev/4318 (std::_Vector_base<_Tp, _Alloc>::~_Vector_base() [with _Tp = int; _Alloc = std::allocator<int>]) @0x7f11403df770
+  Type: function definition analyzed
+  Visibility: externally_visible public weak comdat comdat_group:_ZNSt12_Vector_baseIiSaIiEED5Ev one_only visibility_specified
+  Same comdat group as: _ZNSt12_Vector_baseIiSaIiEED1Ev/4319
+  previous sharing asm name: 5536
+  References: 
+  Referring: _ZNSt12_Vector_baseIiSaIiEED1Ev/4319 (alias) 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) body
+  Called by: main/3228 (0 (precise),0.00 per call) main/3228 (3042075 (estimated locally),1.00 per call) _ZNSt22__uninitialized_fill_nILb0EE15__uninit_fill_nIPSt6vectorIiSaIiEEmS4_EET_S6_T0_RKT1_/4823 (0 (precise),0.00 per call) 
+  Calls: _ZdlPvm/5472 (574129753 (estimated locally),0.53 per call) 
+_ZNSt6vectorIS_IiSaIiEESaIS1_EED1Ev/3927 (std::vector<_Tp, _Alloc>::~vector() [with _Tp = std::vector<int>; _Alloc = std::allocator<std::vector<int> >]) @0x7f11404fb550
+  Type: function definition analyzed alias cpp_implicit_alias
+  Visibility: externally_visible public weak comdat comdat_group:_ZNSt6vectorIS_IiSaIiEESaIS1_EED5Ev one_only visibility_specified
+  Same comdat group as: _ZNSt6vectorIS_IiSaIiEESaIS1_EED2Ev/3926
+  References: _ZNSt6vectorIS_IiSaIiEESaIS1_EED2Ev/3926 (alias) 
+  Referring: 
+  Availability: available
+  Function flags:
+  Called by: main/3228 (0 (precise),0.00 per call) main/3228 (3042075 (estimated locally),1.00 per call) 
+  Calls: 
+_ZNSt6vectorIS_IiSaIiEESaIS1_EED2Ev/3926 (std::vector<_Tp, _Alloc>::~vector() [with _Tp = std::vector<int>; _Alloc = std::allocator<std::vector<int> >]) @0x7f11404fb440
+  Type: function definition analyzed
+  Visibility: externally_visible public weak comdat comdat_group:_ZNSt6vectorIS_IiSaIiEESaIS1_EED5Ev one_only visibility_specified
+  Same comdat group as: _ZNSt6vectorIS_IiSaIiEESaIS1_EED1Ev/3927
+  References: 
+  Referring: _ZNSt6vectorIS_IiSaIiEESaIS1_EED1Ev/3927 (alias) 
+  Availability: available
+  Function flags: count:118111600 (estimated locally) body
+  Called by: 
+  Calls: _ZNSt12_Vector_baseISt6vectorIiSaIiEESaIS2_EED2Ev/5535 (inlined) (118111600 (estimated locally),1.00 per call) _ZNSt12_Vector_baseIiSaIiEED2Ev/5536 (inlined) (955630225 (estimated locally),8.09 per call) 
+_ZNSt6vectorIS_IiSaIiEESaIS1_EEC1EmRKS1_RKS2_/3924 (std::vector<_Tp, _Alloc>::vector(std::vector<_Tp, _Alloc>::size_type, const value_type&, const allocator_type&) [with _Tp = std::vector<int>; _Alloc = std::allocator<std::vector<int> >]) @0x7f11404fb220
+  Type: function definition analyzed alias cpp_implicit_alias
+  Visibility: externally_visible public weak comdat comdat_group:_ZNSt6vectorIS_IiSaIiEESaIS1_EEC5EmRKS1_RKS2_ one_only visibility_specified
+  Same comdat group as: _ZNSt6vectorIS_IiSaIiEESaIS1_EEC2EmRKS1_RKS2_/3923
+  References: _ZNSt6vectorIS_IiSaIiEESaIS1_EEC2EmRKS1_RKS2_/3923 (alias) 
+  Referring: 
+  Availability: available
+  Function flags:
+  Called by: main/3228 (3042075 (estimated locally),1.00 per call) 
+  Calls: 
+_ZNSt6vectorIS_IiSaIiEESaIS1_EEC2EmRKS1_RKS2_/3923 (std::vector<_Tp, _Alloc>::vector(std::vector<_Tp, _Alloc>::size_type, const value_type&, const allocator_type&) [with _Tp = std::vector<int>; _Alloc = std::allocator<std::vector<int> >]) @0x7f11404fb110
+  Type: function definition analyzed
+  Visibility: externally_visible public weak comdat comdat_group:_ZNSt6vectorIS_IiSaIiEESaIS1_EEC5EmRKS1_RKS2_ one_only visibility_specified
+  Same comdat group as: _ZNSt6vectorIS_IiSaIiEESaIS1_EEC1EmRKS1_RKS2_/3924
+  References: 
+  Referring: _ZNSt6vectorIS_IiSaIiEESaIS1_EEC1EmRKS1_RKS2_/3924 (alias) 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) body
+  Called by: 
+  Calls: _ZNSt12_Vector_baseISt6vectorIiSaIiEESaIS2_EED2Ev/4337 (inlined) (0 (precise),0.00 per call) _ZNSt22__uninitialized_fill_nILb0EE15__uninit_fill_nIPSt6vectorIiSaIiEEmS4_EET_S6_T0_RKT1_/4823 (inlined) (1073312329 (estimated locally),1.00 per call) _ZNSt12_Vector_baseISt6vectorIiSaIiEESaIS2_EE17_M_create_storageEm/4600 (inlined) (1073312329 (estimated locally),1.00 per call) (can throw external) _ZSt20__throw_length_errorPKc/5467 (429496 (estimated locally),0.00 per call) (can throw external) 
+_ZNSt6vectorIiSaIiEEC2EmRKiRKS0_/3911 (std::vector<_Tp, _Alloc>::vector(std::vector<_Tp, _Alloc>::size_type, const value_type&, const allocator_type&) [with _Tp = int; _Alloc = std::allocator<int>]) @0x7f11404ef440
+  Type: function definition analyzed
+  Visibility: public weak comdat comdat_group:_ZNSt6vectorIiSaIiEEC5EmRKiRKS0_ one_only visibility_specified
+  References: 
+  Referring: 
+  Function std::vector<_Tp, _Alloc>::vector(std::vector<_Tp, _Alloc>::size_type, const value_type&, const allocator_type&) [with _Tp = int; _Alloc = std::allocator<int>]/3911 is inline copy in int main()/3228
+  Availability: available
+  Function flags: count:3042075 (estimated locally) body
+  Called by: main/3228 (inlined) (3042075 (estimated locally),1.00 per call) (can throw external) 
+  Calls: _ZNSt6vectorIiSaIiEE18_M_fill_initializeEmRKi/4320 (inlined) (3040858 (estimated locally),1.00 per call) _ZNSt12_Vector_baseIiSaIiEE17_M_create_storageEm/4588 (inlined) (3040858 (estimated locally),1.00 per call) (can throw external) _ZSt20__throw_length_errorPKc/5467 (1217 (estimated locally),0.00 per call) (can throw external) 
+main/3228 (int main()) @0x7f1140dfdee0
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: _ZSt3cin/5463 (addr) _ZSt4cout/5465 (addr) 
+  Referring: 
+  Availability: available
+  Function flags: count:3042075 (estimated locally) body only_called_at_startup executed_once
+  Called by: 
+  Calls: _ZNSt6vectorIS_IiSaIiEESaIS1_EED1Ev/3927 (0 (precise),0.00 per call) _ZNSt12_Vector_baseIiSaIiEED2Ev/4318 (0 (precise),0.00 per call) _ZNSt6vectorIS_IiSaIiEESaIS1_EED1Ev/3927 (3042075 (estimated locally),1.00 per call) _ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l/5478 (3042075 (estimated locally),1.00 per call) _ZNSolsEi/5464 (3042075 (estimated locally),1.00 per call) _ZNSt12_Vector_baseIiSaIiEED2Ev/4318 (3042075 (estimated locally),1.00 per call) _ZNSt6vectorIS_IiSaIiEESaIS1_EEC1EmRKS1_RKS2_/3924 (3042075 (estimated locally),1.00 per call) _ZNSt6vectorIiSaIiEEC2EmRKiRKS0_/3911 (inlined) (3042075 (estimated locally),1.00 per call) (can throw external) _ZNSirsERi/5462 (3042075 (estimated locally),1.00 per call) (can throw external) _ZNSirsERi/5462 (3042075 (estimated locally),1.00 per call) (can throw external) 
+_ZStL8__ioinit/1878 (std::ios_base::Init std::__ioinit) @0x7f11447d8400
+  Type: variable definition analyzed
+  Visibility: prevailing_def_ironly
+  References: 
+  Referring: _Z41__static_initialization_and_destruction_0ii.constprop.0/5531 (addr) _Z41__static_initialization_and_destruction_0ii.constprop.0/5531 (addr) 
+  Availability: available
+  Varpool flags:
+
+;; Function std::vector<std::vector<int> >::~vector (_ZNSt6vectorIS_IiSaIiEESaIS1_EED2Ev, funcdef_no=10586, decl_uid=213781, cgraph_uid=3244, symbol_order=3926)
+
+
+Symbols to be put in SSA form
+{ D.233971 }
+Incremental SSA update started at block: 0
+Number of blocks in CFG: 14
+Number of blocks to update: 13 ( 93%)
+
+
+Merging blocks 3 and 7
+Merging blocks 5 and 11
+Merging blocks 9 and 6
+Merging blocks 13 and 10
+;; 2 loops found
+;;
+;; Loop 0
+;;  header 0, latch 1
+;;  depth 0, outer -1
+;;  nodes: 0 1 2 3 4 5 6 7 8 9
+;;
+;; Loop 1
+;;  header 6, latch 5
+;;  depth 1, outer 0
+;;  nodes: 6 5 3 4
+;; 2 succs { 6 }
+;; 3 succs { 4 5 }
+;; 4 succs { 5 }
+;; 5 succs { 6 }
+;; 6 succs { 3 7 }
+;; 7 succs { 8 9 }
+;; 8 succs { 9 }
+;; 9 succs { 1 }
+cyclic probability of bb 6 is 0.890000; turning freq 1.000000 to 9.090909
+void std::vector<std::vector<int> >::~vector (struct vector * const this)
+{
+  struct vector * __first;
+  struct vector * _1;
+  struct vector * _2;
+  struct _Vector_base * _3;
+  struct _Vector_base * _9;
+  int * _14;
+  int * _15;
+  long int _16;
+  long unsigned int _17;
+  struct vector * _18;
+  struct vector * _19;
+  long int _20;
+  long unsigned int _21;
+
+  <bb 2> [local count: 118111600]:
+  _1 = this_4(D)->D.213784._M_impl.D.213129._M_finish;
+  _2 = this_4(D)->D.213784._M_impl.D.213129._M_start;
+  goto <bb 6>; [100.00%]
+
+  <bb 3> [local count: 955630225]:
+  _9 = &__first_6->D.182734;
+  _14 = _9->_M_impl.D.182080._M_end_of_storage;
+  _15 = _9->_M_impl.D.182080._M_start;
+  _16 = _14 - _15;
+  if (_15 != 0B)
+    goto <bb 4>; [53.47%]
+  else
+    goto <bb 5>; [46.53%]
+
+  <bb 4> [local count: 510975480]:
+  _17 = (long unsigned int) _16;
+  operator delete (_15, _17);
+
+  <bb 5> [local count: 955630225]:
+  *_9 ={v} {CLOBBER};
+  *__first_6 ={v} {CLOBBER};
+  __first_10 = __first_6 + 24;
+
+  <bb 6> [local count: 1073741824]:
+  # __first_6 = PHI <_2(2), __first_10(5)>
+  if (_1 != __first_6)
+    goto <bb 3>; [89.00%]
+  else
+    goto <bb 7>; [11.00%]
+
+  <bb 7> [local count: 118111600]:
+  _3 = &this_4(D)->D.213784;
+  _18 = _3->_M_impl.D.213129._M_end_of_storage;
+  _19 = _3->_M_impl.D.213129._M_start;
+  _20 = _18 - _19;
+  if (_19 != 0B)
+    goto <bb 8>; [53.47%]
+  else
+    goto <bb 9>; [46.53%]
+
+  <bb 8> [local count: 63154272]:
+  _21 = (long unsigned int) _20;
+  operator delete (_19, _21);
+
+  <bb 9> [local count: 118111600]:
+  *_3 ={v} {CLOBBER};
+  *this_4(D) ={v} {CLOBBER};
+  return;
+
+}
+
+
+
+;; Function std::_Vector_base<int, std::allocator<int> >::~_Vector_base (_ZNSt12_Vector_baseIiSaIiEED2Ev, funcdef_no=10958, decl_uid=182190, cgraph_uid=3616, symbol_order=4318)
+
+void std::_Vector_base<int, std::allocator<int> >::~_Vector_base (struct _Vector_base * const this)
+{
+  int * _1;
+  int * _2;
+  long int _3;
+  long unsigned int _7;
+
+  <bb 2> [local count: 1073741824]:
+  _1 = this_5(D)->_M_impl.D.182080._M_end_of_storage;
+  _2 = this_5(D)->_M_impl.D.182080._M_start;
+  _3 = _1 - _2;
+  if (_2 != 0B)
+    goto <bb 3>; [53.47%]
+  else
+    goto <bb 4>; [46.53%]
+
+  <bb 3> [local count: 574129753]:
+  _7 = (long unsigned int) _3;
+  operator delete (_2, _7);
+
+  <bb 4> [local count: 1073741824]:
+  *this_5(D) ={v} {CLOBBER};
+  return;
+
+}
+
+
+
+;; Function std::vector<std::vector<int> >::vector (_ZNSt6vectorIS_IiSaIiEESaIS1_EEC2EmRKS1_RKS2_, funcdef_no=10583, decl_uid=213755, cgraph_uid=3241, symbol_order=3923)
+
+;; 1 loops found
+;;
+;; Loop 0
+;;  header 0, latch 1
+;;  depth 0, outer -1
+;;  nodes: 0 1
+
+Symbols to be put in SSA form
+{ D.234590 }
+Incremental SSA update started at block: 0
+Number of blocks in CFG: 8
+Number of blocks to update: 7 ( 88%)
+
+
+;; 1 loops found
+;;
+;; Loop 0
+;;  header 0, latch 1
+;;  depth 0, outer -1
+;;  nodes: 0 1
+
+Symbols to be put in SSA form
+{ D.234595 }
+Incremental SSA update started at block: 0
+Number of blocks in CFG: 8
+Number of blocks to update: 7 ( 88%)
+
+
+
+Symbols to be put in SSA form
+{ D.234018 D.234605 D.234615 D.234625 }
+Incremental SSA update started at block: 0
+Number of blocks in CFG: 51
+Number of blocks to update: 50 ( 98%)
+
+
+Merging blocks 4 and 20
+Merging blocks 6 and 48
+Removing basic block 8
+Removing basic block 9
+Merging blocks 12 and 7
+Merging blocks 21 and 24
+Merging blocks 22 and 19
+Merging blocks 29 and 23
+Removing basic block 30
+Merging blocks 31 and 36
+Merging blocks 33 and 10
+Removing basic block 35
+Merging blocks 37 and 40
+Merging blocks 38 and 34
+Merging blocks 46 and 39
+Merging blocks 50 and 47
+Merging blocks 12 and 5
+Merging blocks 21 and 25
+Merging blocks 37 and 41
+;; 3 loops found
+;;
+;; Loop 0
+;;  header 0, latch 1
+;;  depth 0, outer -1
+;;  nodes: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31
+;;
+;; Loop 1
+;;  header 26, latch 25
+;;  depth 1, outer 0
+;;  nodes: 26 25
+;;
+;; Loop 2
+;;  header 21, latch 20
+;;  depth 1, outer 0
+;;  nodes: 21 20 18 19 11 17 16 12
+;; 2 succs { 3 4 }
+;; 3 succs { }
+;; 4 succs { 5 10 }
+;; 5 succs { 6 9 }
+;; 6 succs { 7 8 }
+;; 7 succs { }
+;; 8 succs { }
+;; 9 succs { 10 }
+;; 10 succs { 21 }
+;; 11 succs { 12 18 }
+;; 12 succs { 13 16 }
+;; 13 succs { 14 15 }
+;; 14 succs { 23 }
+;; 15 succs { 23 }
+;; 16 succs { 17 23 }
+;; 17 succs { 18 }
+;; 18 succs { 19 20 }
+;; 19 succs { 20 }
+;; 20 succs { 21 }
+;; 21 succs { 11 22 }
+;; 22 succs { 1 }
+;; 23 succs { 24 }
+;; 24 succs { 26 }
+;; 25 succs { 26 }
+;; 26 succs { 25 27 }
+;; 27 succs { 28 }
+;; 28 succs { 29 }
+;; 29 succs { 30 31 }
+;; 30 succs { 31 }
+;; 31 succs { }
+cyclic probability of bb 21 is 0.841344; turning freq 0.944952 to 5.955968
+void std::vector<std::vector<int> >::vector (struct vector * const this, size_type __n, const struct value_type & __value, const struct allocator_type & __a)
+{
+  int * D.234625;
+  struct vector * D.234615;
+  struct vector * __cur;
+  struct vector * __first;
+  struct vector * D.234605;
+  long unsigned int __n;
+  struct _Vector_base * _1;
+  struct vector * _9;
+  struct vector * _10;
+  void * _24;
+  struct _Vector_base * _26;
+  struct _Vector_impl * _29;
+  struct vector * _30;
+  struct vector * iftmp.12_31;
+  long unsigned int _32;
+  struct vector * _33;
+  bool _34;
+  long int _35;
+  long int _36;
+  long unsigned int _37;
+  struct vector * _38;
+  struct _Vector_base * _39;
+  int * _40;
+  int * _41;
+  long int _42;
+  long int _43;
+  long unsigned int _44;
+  int * _45;
+  const int * _46;
+  const int * _47;
+  long int _48;
+  long unsigned int _49;
+  long unsigned int _50;
+  int * _51;
+  struct _Vector_impl * _52;
+  int * _53;
+  int * iftmp.8_54;
+  long unsigned int _55;
+  int * _56;
+  bool _57;
+  long int _58;
+  long int _59;
+  long unsigned int _60;
+  int * _61;
+  struct vector * _62;
+  struct vector * _63;
+  long int _64;
+  long unsigned int _65;
+  struct vector * _74;
+  struct vector * _80;
+  int * _86;
+
+  <bb 2> [local count: 180279980]:
+  *this_3(D) ={v} {CLOBBER};
+  _1 = &this_3(D)->D.213784;
+  if (__n_5(D) > 384307168202282325)
+    goto <bb 3>; [0.04%]
+  else
+    goto <bb 4>; [99.96%]
+
+  <bb 3> [local count: 72112]:
+  std::__throw_length_error ("cannot create std::vector larger than max_size()");
+
+  <bb 4> [local count: 180207868]:
+  MEM[(struct _Vector_impl_data *)this_3(D)] ={v} {CLOBBER};
+  MEM[(struct _Vector_impl_data *)this_3(D)]._M_start = 0B;
+  MEM[(struct _Vector_impl_data *)this_3(D)]._M_finish = 0B;
+  MEM[(struct _Vector_impl_data *)this_3(D)]._M_end_of_storage = 0B;
+  if (__n_5(D) != 0)
+    goto <bb 5>; [54.67%]
+  else
+    goto <bb 10>; [45.33%]
+
+  <bb 5> [local count: 98519642]:
+  _29 = &_1->_M_impl;
+  _34 = __n_5(D) > 384307168202282325;
+  _35 = (long int) _34;
+  _36 = __builtin_expect (_35, 0);
+  if (_36 != 0)
+    goto <bb 6>; [10.00%]
+  else
+    goto <bb 9>; [90.00%]
+
+  <bb 6> [local count: 9851964]:
+  if (__n_5(D) > 768614336404564650)
+    goto <bb 7>; [50.00%]
+  else
+    goto <bb 8>; [50.00%]
+
+  <bb 7> [local count: 4925982]:
+  std::__throw_bad_array_new_length ();
+
+  <bb 8> [local count: 4925982]:
+  std::__throw_bad_alloc ();
+
+  <bb 9> [local count: 88667677]:
+  _37 = __n_5(D) * 24;
+  _38 = operator new (_37);
+  _74 = _38;
+  _30 = _74;
+
+  <bb 10> [local count: 170355904]:
+  # iftmp.12_31 = PHI <0B(4), _30(9)>
+  _1->_M_impl.D.213129._M_start = iftmp.12_31;
+  _1->_M_impl.D.213129._M_finish = iftmp.12_31;
+  _32 = __n_5(D) * 24;
+  _33 = iftmp.12_31 + _32;
+  _1->_M_impl.D.213129._M_end_of_storage = _33;
+  _9 = *this_3(D).D.213784._M_impl.D.213129._M_start;
+  goto <bb 21>; [100.00%]
+
+  <bb 11> [local count: 955630226]:
+  _39 = &__cur_19->D.182734;
+  _40 = MEM[(const struct vector *)__value_7(D)].D.182734._M_impl.D.182080._M_finish;
+  _41 = MEM[(const struct vector *)__value_7(D)].D.182734._M_impl.D.182080._M_start;
+  _42 = _40 - _41;
+  _43 = _42 /[ex] 4;
+  _44 = (long unsigned int) _43;
+  MEM[(struct _Vector_impl_data *)__cur_19] ={v} {CLOBBER};
+  MEM[(struct _Vector_impl_data *)__cur_19]._M_start = 0B;
+  MEM[(struct _Vector_impl_data *)__cur_19]._M_finish = 0B;
+  MEM[(struct _Vector_impl_data *)__cur_19]._M_end_of_storage = 0B;
+  if (_44 != 0)
+    goto <bb 12>; [54.67%]
+  else
+    goto <bb 18>; [45.33%]
+
+  <bb 12> [local count: 522443045]:
+  _52 = &_39->_M_impl;
+  _57 = _44 > 2305843009213693951;
+  _58 = (long int) _57;
+  _59 = __builtin_expect (_58, 0);
+  if (_59 != 0)
+    goto <bb 13>; [10.00%]
+  else
+    goto <bb 16>; [90.00%]
+
+  <bb 13> [local count: 52244305]:
+  if (_44 > 4611686018427387903)
+    goto <bb 14>; [50.00%]
+  else
+    goto <bb 15>; [50.00%]
+
+  <bb 14> [local count: 26122153]:
+  std::__throw_bad_array_new_length ();
+
+  <bb 15> [local count: 26122153]:
+  std::__throw_bad_alloc ();
+
+  <bb 16> [local count: 470198739]:
+  _60 = _44 * 4;
+  _61 = operator new (_60);
+
+  <bb 17> [local count: 470198739]:
+  _86 = _61;
+  _53 = _86;
+
+  <bb 18> [local count: 903385921]:
+  # iftmp.8_54 = PHI <0B(11), _53(17)>
+  _39->_M_impl.D.182080._M_start = iftmp.8_54;
+  _39->_M_impl.D.182080._M_finish = iftmp.8_54;
+  _55 = _44 * 4;
+  _56 = iftmp.8_54 + _55;
+  _39->_M_impl.D.182080._M_end_of_storage = _56;
+  _45 = *__cur_19.D.182734._M_impl.D.182080._M_start;
+  _46 = MEM[(const int * const &)__value_7(D) + 8];
+  _47 = MEM[(const int * const &)__value_7(D)];
+  _48 = _46 - _47;
+  if (_46 != _47)
+    goto <bb 19>; [53.47%]
+  else
+    goto <bb 20>; [46.53%]
+
+  <bb 19> [local count: 483040451]:
+  _49 = (long unsigned int) _48;
+  __builtin_memmove (_45, _47, _49);
+
+  <bb 20> [local count: 903385921]:
+  _50 = (long unsigned int) _48;
+  _51 = _45 + _50;
+  *__cur_19.D.182734._M_impl.D.182080._M_finish = _51;
+  __n_21 = __n_20 + 18446744073709551615;
+  __cur_22 = __cur_19 + 24;
+
+  <bb 21> [local count: 1073741824]:
+  # __n_20 = PHI <__n_5(D)(10), __n_21(20)>
+  # __cur_19 = PHI <_9(10), __cur_22(20)>
+  if (__n_20 != 0)
+    goto <bb 11>; [89.00%]
+  else
+    goto <bb 22>; [11.00%]
+
+  <bb 22> [local count: 118111600]:
+  # __cur_23 = PHI <__cur_19(21)>
+  _80 = __cur_23;
+  _10 = _80;
+  *this_3(D).D.213784._M_impl.D.213129._M_finish = _10;
+  return;
+
+  <bb 23> [count: 0]:
+  # __cur_28 = PHI <__cur_19(16), __cur_19(15), __cur_19(14)>
+<L1>:
+  eh_dispatch 5
+
+  <bb 24> [count: 0]:
+<L2>:
+  _24 = __builtin_eh_pointer (5);
+  __cxa_begin_catch (_24);
+  goto <bb 26>; [0.00%]
+
+  <bb 25> [count: 0]:
+  _26 = &__first_25->D.182734;
+  std::_Vector_base<int, std::allocator<int> >::~_Vector_base (_26);
+  *__first_25 ={v} {CLOBBER};
+  __first_27 = __first_25 + 24;
+
+  <bb 26> [count: 0]:
+  # __first_25 = PHI <_9(24), __first_27(25)>
+  if (__first_25 != __cur_28)
+    goto <bb 25>; [0.00%]
+  else
+    goto <bb 27>; [0.00%]
+
+  <bb 27> [count: 0]:
+  __cxa_rethrow ();
+
+  <bb 28> [count: 0]:
+<L3>:
+  __cxa_end_catch ();
+  resx 4
+
+  <bb 29> [count: 0]:
+<L0>:
+  _62 = _1->_M_impl.D.213129._M_end_of_storage;
+  _63 = _1->_M_impl.D.213129._M_start;
+  _64 = _62 - _63;
+  if (_63 != 0B)
+    goto <bb 30>; [0.00%]
+  else
+    goto <bb 31>; [0.00%]
+
+  <bb 30> [count: 0]:
+  _65 = (long unsigned int) _64;
+  operator delete (_63, _65);
+
+  <bb 31> [count: 0]:
+  *_1 ={v} {CLOBBER};
+  resx 1
+
+}
+
+
+
+;; Function main (main, funcdef_no=9898, decl_uid=212622, cgraph_uid=2557, symbol_order=3228) (executed once)
+
+;; 1 loops found
+;;
+;; Loop 0
+;;  header 0, latch 1
+;;  depth 0, outer -1
+;;  nodes: 0 1
+
+Symbols to be put in SSA form
+{ D.234662 D.234665 }
+Incremental SSA update started at block: 0
+Number of blocks in CFG: 8
+Number of blocks to update: 7 ( 88%)
+
+
+
+Symbols to be put in SSA form
+{ D.234019 D.234685 D.234694 }
+Incremental SSA update started at block: 0
+Number of blocks in CFG: 57
+Number of blocks to update: 56 ( 98%)
+
+
+Merging blocks 2 and 32
+Removing basic block 27
+Removing basic block 28
+Removing basic block 29
+Removing basic block 30
+Merging blocks 34 and 40
+Removing basic block 35
+Merging blocks 37 and 51
+Merging blocks 38 and 31
+Removing basic block 39
+Merging blocks 41 and 44
+Merging blocks 42 and 36
+Merging blocks 49 and 43
+Removing basic block 52
+Merging blocks 56 and 50
+Merging blocks 37 and 53
+Merging blocks 41 and 45
+No longer having address taken: D.213807
+No longer having address taken: D.213805
+Now a gimple register: D.213805
+
+Symbols to be put in SSA form
+{ D.213805 }
+Incremental SSA update started at block: 0
+Number of blocks in CFG: 40
+Number of blocks to update: 39 ( 98%)
+
+
+;; 7 loops found
+;;
+;; Loop 0
+;;  header 0, latch 1
+;;  depth 0, outer -1
+;;  nodes: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39
+;;
+;; Loop 2
+;;  header 34, latch 33
+;;  depth 1, outer 0
+;;  nodes: 34 33 32 31 22 30 26 29 27 28 21 25 23 24
+;;
+;; Loop 3
+;;  header 32, latch 31
+;;  depth 2, outer 2
+;;  nodes: 32 31 22 30 26 29 27 28 21 25 23 24
+;;
+;; Loop 5
+;;  header 30, latch 29
+;;  depth 3, outer 3
+;;  nodes: 30 29 27 28
+;;
+;; Loop 4
+;;  header 26, latch 25
+;;  depth 3, outer 3
+;;  nodes: 26 25 23 24
+;;
+;; Loop 1
+;;  header 18, latch 17
+;;  depth 1, outer 0
+;;  nodes: 18 17 20 19
+;;
+;; Loop 6
+;;  header 13, latch 12
+;;  depth 1, outer 0
+;;  nodes: 13 12
+;; 2 succs { 3 4 }
+;; 3 succs { }
+;; 4 succs { 5 10 }
+;; 5 succs { 6 9 }
+;; 6 succs { 7 8 }
+;; 7 succs { }
+;; 8 succs { }
+;; 9 succs { 10 }
+;; 10 succs { 15 11 }
+;; 11 succs { 13 }
+;; 12 succs { 13 }
+;; 13 succs { 12 14 }
+;; 14 succs { 15 }
+;; 15 succs { 38 16 }
+;; 16 succs { 18 }
+;; 17 succs { 18 }
+;; 18 succs { 19 20 }
+;; 19 succs { 20 }
+;; 20 succs { 17 34 }
+;; 21 succs { 22 26 }
+;; 22 succs { 31 }
+;; 23 succs { 24 25 }
+;; 24 succs { 25 }
+;; 25 succs { 26 }
+;; 26 succs { 23 30 }
+;; 27 succs { 28 29 }
+;; 28 succs { 29 }
+;; 29 succs { 30 }
+;; 30 succs { 27 31 }
+;; 31 succs { 32 }
+;; 32 succs { 21 33 }
+;; 33 succs { 34 }
+;; 34 succs { 32 35 }
+;; 35 succs { 39 36 }
+;; 36 succs { 37 39 }
+;; 37 succs { 1 }
+;; 38 succs { }
+;; 39 succs { }
+cyclic probability of bb 26 is 0.890000; turning freq 0.527859 to 4.798718
+cyclic probability of bb 30 is 0.890000; turning freq 0.527859 to 4.798718
+cyclic probability of bb 32 is 0.890000; turning freq 0.890000 to 8.090909
+cyclic probability of bb 26 is 0.890000; turning freq 4.270859 to 38.825993
+cyclic probability of bb 30 is 0.890000; turning freq 4.270859 to 38.825993
+cyclic probability of bb 13 is 0.890000; turning freq 0.623668 to 5.669711
+cyclic probability of bb 18 is 0.890000; turning freq 0.944952 to 8.590472
+cyclic probability of bb 34 is 0.890000; turning freq 0.944952 to 8.590472
+cyclic probability of bb 32 is 0.890000; turning freq 7.645520 to 69.504725
+cyclic probability of bb 26 is 0.890000; turning freq 36.688694 to 333.533587
+cyclic probability of bb 30 is 0.890000; turning freq 36.688694 to 333.533587
+int main ()
+{
+  const int __tmp;
+  int * __first;
+  int * D.234694;
+  int * D.234685;
+  char __c;
+  int k;
+  int k;
+  int j;
+  int i;
+  int i;
+  struct vector dp;
+  int b;
+  int a;
+  const int D.213874;
+  const int D.213872;
+  const value_type D.213805;
+  struct vector D.213808;
+  struct allocator_type D.213864;
+  int b.0_1;
+  int _2;
+  long unsigned int _3;
+  int a.1_4;
+  int _5;
+  long unsigned int _6;
+  long unsigned int _7;
+  int _8;
+  int _9;
+  long unsigned int _10;
+  long unsigned int _11;
+  int _12;
+  int _13;
+  long unsigned int _14;
+  int _15;
+  int _16;
+  long unsigned int _17;
+  int _18;
+  long unsigned int _19;
+  long unsigned int _20;
+  int _21;
+  int _22;
+  int _23;
+  long unsigned int _24;
+  int _25;
+  int _26;
+  long unsigned int _27;
+  int _28;
+  long unsigned int _29;
+  int b.3_30;
+  int a.4_31;
+  int a.4_32;
+  long unsigned int _33;
+  int b.6_34;
+  long unsigned int _35;
+  int _36;
+  struct __istream_type & _51;
+  value_type & _53;
+  int * _60;
+  value_type & _62;
+  long unsigned int _63;
+  struct basic_ostream & _65;
+  const int & _72;
+  int _74;
+  int _75;
+  struct value_type & _76;
+  long unsigned int _77;
+  struct vector * _78;
+  value_type & _82;
+  int * _83;
+  const int & _84;
+  int _86;
+  struct value_type & _91;
+  long unsigned int _92;
+  int * _95;
+  long unsigned int _96;
+  struct value_type & _97;
+  int * _98;
+  long unsigned int _99;
+  value_type & _100;
+  struct vector * _101;
+  long unsigned int _102;
+  struct value_type & _103;
+  long unsigned int _104;
+  value_type & _105;
+  int _106;
+  const int & _107;
+  long unsigned int _108;
+  value_type & _109;
+  int * _110;
+  long unsigned int _111;
+  value_type & _112;
+  struct value_type & _113;
+  int * _114;
+  long unsigned int _115;
+  value_type & _116;
+  struct vector * _117;
+  long unsigned int _118;
+  struct value_type & _119;
+  int * _120;
+  long unsigned int _121;
+  value_type & _122;
+  struct vector * _123;
+  long unsigned int _124;
+  struct value_type & _125;
+  struct _Vector_base * _133;
+  int * _134;
+  int * _135;
+  int * _136;
+  int _137;
+  struct _Vector_impl * _138;
+  int * _139;
+  int * iftmp.8_140;
+  long unsigned int _141;
+  int * _142;
+  bool _143;
+  long int _144;
+  long int _145;
+  long unsigned int _146;
+  int * _147;
+  long unsigned int _148;
+  int * _149;
+  int * _153;
+  int * _163;
+  int * _169;
+  const value_type _173;
+  const value_type _174(D);
+
+  <bb 2> [local count: 3219291]:
+  _51 = std::basic_istream<char>::operator>> (&cin, &a);
+  std::basic_istream<char>::operator>> (_51, &b);
+  _173 = 1000000000;
+  b.0_1 = b;
+  _2 = b.0_1 + 1;
+  _3 = (long unsigned int) _2;
+  D.213808 ={v} {CLOBBER};
+  _133 = &D.213808.D.182734;
+  if (_3 > 2305843009213693951)
+    goto <bb 3>; [0.04%]
+  else
+    goto <bb 4>; [99.96%]
+
+  <bb 3> [local count: 1288]:
+  std::__throw_length_error ("cannot create std::vector larger than max_size()");
+
+  <bb 4> [local count: 3218004]:
+  MEM[(struct _Vector_impl_data *)&D.213808] ={v} {CLOBBER};
+  MEM[(struct _Vector_impl_data *)&D.213808]._M_start = 0B;
+  MEM[(struct _Vector_impl_data *)&D.213808]._M_finish = 0B;
+  MEM[(struct _Vector_impl_data *)&D.213808]._M_end_of_storage = 0B;
+  if (_3 != 0)
+    goto <bb 5>; [54.67%]
+  else
+    goto <bb 10>; [45.33%]
+
+  <bb 5> [local count: 1759283]:
+  _138 = &_133->_M_impl;
+  _143 = _3 > 2305843009213693951;
+  _144 = (long int) _143;
+  _145 = __builtin_expect (_144, 0);
+  if (_145 != 0)
+    goto <bb 6>; [10.00%]
+  else
+    goto <bb 9>; [90.00%]
+
+  <bb 6> [local count: 175928]:
+  if (_3 > 4611686018427387903)
+    goto <bb 7>; [50.00%]
+  else
+    goto <bb 8>; [50.00%]
+
+  <bb 7> [local count: 87964]:
+  std::__throw_bad_array_new_length ();
+
+  <bb 8> [local count: 87964]:
+  std::__throw_bad_alloc ();
+
+  <bb 9> [local count: 1583354]:
+  _146 = _3 * 4;
+  _147 = operator new (_146);
+  _163 = _147;
+  _139 = _163;
+
+  <bb 10> [local count: 3042075]:
+  # iftmp.8_140 = PHI <0B(4), _139(9)>
+  _133->_M_impl.D.182080._M_start = iftmp.8_140;
+  _133->_M_impl.D.182080._M_finish = iftmp.8_140;
+  _141 = _3 * 4;
+  _142 = iftmp.8_140 + _141;
+  _133->_M_impl.D.182080._M_end_of_storage = _142;
+  _134 = D.213808.D.182734._M_impl.D.182080._M_start;
+  if (_3 == 0)
+    goto <bb 15>; [34.00%]
+  else
+    goto <bb 11>; [66.00%]
+
+  <bb 11> [local count: 2007770]:
+  _137 = _173;
+  _148 = _3 * 4;
+  _149 = _134 + _148;
+  __tmp_150 = _137;
+  goto <bb 13>; [100.00%]
+
+  <bb 12> [local count: 16244683]:
+  *__first_151 = __tmp_150;
+  __first_152 = __first_151 + 4;
+
+  <bb 13> [local count: 18252453]:
+  # __first_151 = PHI <_134(11), __first_152(12)>
+  if (_149 != __first_151)
+    goto <bb 12>; [89.00%]
+  else
+    goto <bb 14>; [11.00%]
+
+  <bb 14> [local count: 2007770]:
+  # _153 = PHI <_149(13)>
+  _169 = _153;
+  _135 = _169;
+
+  <bb 15> [local count: 3042075]:
+  # _136 = PHI <_134(10), _135(14)>
+  D.213808.D.182734._M_impl.D.182080._M_finish = _136;
+  a.1_4 = a;
+  _5 = a.1_4 + 1;
+  _6 = (long unsigned int) _5;
+  std::vector<std::vector<int> >::vector (&dp, _6, &D.213808, &D.213864);
+
+  <bb 16> [local count: 3042075]:
+  std::_Vector_base<int, std::allocator<int> >::~_Vector_base (&D.213808.D.182734);
+  D.213808 ={v} {CLOBBER};
+  D.213808 ={v} {CLOBBER};
+  D.213864 ={v} {CLOBBER};
+  goto <bb 18>; [100.00%]
+
+  <bb 17> [local count: 24613156]:
+  _7 = (long unsigned int) i_37;
+  _78 = dp.D.213784._M_impl.D.213129._M_start;
+  _77 = _7 * 24;
+  _76 = _78 + _77;
+  _95 = MEM[(struct vector *)_76].D.182734._M_impl.D.182080._M_start;
+  _63 = _7 * 4;
+  _62 = _95 + _63;
+  *_62 = 0;
+  i_94 = i_37 + 1;
+
+  <bb 18> [local count: 27655232]:
+  # i_37 = PHI <0(16), i_94(17)>
+  _75 = b;
+  _74 = a;
+  if (_74 > _75)
+    goto <bb 19>; [34.00%]
+  else
+    goto <bb 20>; [66.00%]
+
+  <bb 19> [local count: 9402779]:
+
+  <bb 20> [local count: 27655232]:
+  # _72 = PHI <&a(18), &b(19)>
+  _8 = *_72;
+  if (_8 >= i_37)
+    goto <bb 17>; [89.00%]
+  else
+    goto <bb 34>; [11.00%]
+
+  <bb 21> [local count: 199142810]:
+  if (i_38 == j_39)
+    goto <bb 22>; [40.69%]
+  else
+    goto <bb 26>; [59.31%]
+
+  <bb 22> [local count: 81031210]:
+  // predicted unlikely by continue predictor.
+  goto <bb 31>; [100.00%]
+
+  <bb 23> [local count: 955630224]:
+  _9 = i_38 - k_40;
+  _10 = (long unsigned int) _9;
+  _101 = dp.D.213784._M_impl.D.213129._M_start;
+  _102 = _10 * 24;
+  _103 = _101 + _102;
+  _11 = (long unsigned int) j_39;
+  _98 = MEM[(struct vector *)_103].D.182734._M_impl.D.182080._M_start;
+  _99 = _11 * 4;
+  _100 = _98 + _99;
+  _12 = *_100;
+  _13 = _12 + 1;
+  _14 = (long unsigned int) k_40;
+  _96 = _14 * 24;
+  _97 = _101 + _96;
+  _60 = MEM[(struct vector *)_97].D.182734._M_impl.D.182080._M_start;
+  _53 = _60 + _99;
+  _15 = *_53;
+  _16 = _13 + _15;
+  D.213872 = _16;
+  _17 = (long unsigned int) i_38;
+  _92 = _17 * 24;
+  _91 = _101 + _92;
+  _83 = MEM[(struct vector *)_91].D.182734._M_impl.D.182080._M_start;
+  _82 = _83 + _99;
+  _86 = MEM[(const int &)_82];
+  if (_16 < _86)
+    goto <bb 24>; [34.00%]
+  else
+    goto <bb 25>; [66.00%]
+
+  <bb 24> [local count: 324914280]:
+
+  <bb 25> [local count: 955630224]:
+  # _84 = PHI <_82(23), &D.213872(24)>
+  _18 = *_84;
+  *_82 = _18;
+  D.213872 ={v} {CLOBBER};
+  k_89 = k_40 + 1;
+
+  <bb 26> [local count: 1073741824]:
+  # k_40 = PHI <1(21), k_89(25)>
+  if (i_38 > k_40)
+    goto <bb 23>; [89.00%]
+  else
+    goto <bb 30>; [11.00%]
+
+  <bb 27> [local count: 955630224]:
+  _19 = (long unsigned int) i_38;
+  _117 = dp.D.213784._M_impl.D.213129._M_start;
+  _118 = _19 * 24;
+  _119 = _117 + _118;
+  _20 = (long unsigned int) k_41;
+  _114 = MEM[(struct vector *)_119].D.182734._M_impl.D.182080._M_start;
+  _115 = _20 * 4;
+  _116 = _114 + _115;
+  _21 = *_116;
+  _22 = _21 + 1;
+  _113 = _117 + _118;
+  _23 = j_39 - k_41;
+  _24 = (long unsigned int) _23;
+  _110 = MEM[(struct vector *)_113].D.182734._M_impl.D.182080._M_start;
+  _111 = _24 * 4;
+  _112 = _110 + _111;
+  _25 = *_112;
+  _26 = _22 + _25;
+  D.213874 = _26;
+  _27 = (long unsigned int) j_39;
+  _108 = _27 * 4;
+  _109 = _110 + _108;
+  _106 = MEM[(const int &)_109];
+  if (_26 < _106)
+    goto <bb 28>; [34.00%]
+  else
+    goto <bb 29>; [66.00%]
+
+  <bb 28> [local count: 324914280]:
+
+  <bb 29> [local count: 955630224]:
+  # _107 = PHI <_109(27), &D.213874(28)>
+  _28 = *_107;
+  _29 = (long unsigned int) j_39;
+  _104 = _29 * 4;
+  _105 = _110 + _104;
+  *_105 = _28;
+  D.213874 ={v} {CLOBBER};
+  k_81 = k_41 + 1;
+
+  <bb 30> [local count: 1073741824]:
+  # k_41 = PHI <1(26), k_81(29)>
+  if (j_39 > k_41)
+    goto <bb 27>; [89.00%]
+  else
+    goto <bb 31>; [11.00%]
+
+  <bb 31> [local count: 199142810]:
+  j_90 = j_39 + 1;
+
+  <bb 32> [local count: 223755966]:
+  # j_39 = PHI <1(34), j_90(31)>
+  b.3_30 = b;
+  if (b.3_30 >= j_39)
+    goto <bb 21>; [89.00%]
+  else
+    goto <bb 33>; [11.00%]
+
+  <bb 33> [local count: 24613156]:
+  i_71 = i_38 + 1;
+
+  <bb 34> [local count: 27655232]:
+  # i_38 = PHI <1(20), i_71(33)>
+  a.4_31 = a;
+  if (a.4_31 >= i_38)
+    goto <bb 32>; [89.00%]
+  else
+    goto <bb 35>; [11.00%]
+
+  <bb 35> [local count: 3042075]:
+  # a.4_32 = PHI <a.4_31(34)>
+  _33 = (long unsigned int) a.4_32;
+  _123 = dp.D.213784._M_impl.D.213129._M_start;
+  _124 = _33 * 24;
+  _125 = _123 + _124;
+  b.6_34 = b;
+  _35 = (long unsigned int) b.6_34;
+  _120 = MEM[(struct vector *)_125].D.182734._M_impl.D.182080._M_start;
+  _121 = _35 * 4;
+  _122 = _120 + _121;
+  _36 = *_122;
+  _65 = std::basic_ostream<char>::operator<< (&cout, _36);
+
+  <bb 36> [local count: 3042075]:
+  __c = 10;
+  std::__ostream_insert<char, std::char_traits<char> > (_65, &__c, 1);
+
+  <bb 37> [local count: 3042075]:
+  __c ={v} {CLOBBER};
+  std::vector<std::vector<int> >::~vector (&dp);
+  a ={v} {CLOBBER};
+  b ={v} {CLOBBER};
+  dp ={v} {CLOBBER};
+  return 0;
+
+  <bb 38> [count: 0]:
+<L21>:
+  std::_Vector_base<int, std::allocator<int> >::~_Vector_base (&D.213808.D.182734);
+  D.213808 ={v} {CLOBBER};
+  resx 9
+
+  <bb 39> [count: 0]:
+<L29>:
+  std::vector<std::vector<int> >::~vector (&dp);
+  resx 22
+
+}
+
+
+
+;; Function _GLOBAL__sub_I_main (_GLOBAL__sub_I_main, funcdef_no=11743, decl_uid=233682, cgraph_uid=4401, symbol_order=5461) (executed once)
+
+;; 1 loops found
+;;
+;; Loop 0
+;;  header 0, latch 1
+;;  depth 0, outer -1
+;;  nodes: 0 1
+
+Symbols to be put in SSA form
+{ D.234759 }
+Incremental SSA update started at block: 0
+Number of blocks in CFG: 7
+Number of blocks to update: 6 ( 86%)
+
+
+
+Symbols to be put in SSA form
+{ D.234020 }
+Incremental SSA update started at block: 0
+Number of blocks in CFG: 9
+Number of blocks to update: 8 ( 89%)
+
+
+Merging blocks 2 and 4
+Removing basic block 5
+Removing basic block 6
+Removing basic block 8
+Merging blocks 2 and 7
+Merging blocks 2 and 3
+;; 1 loops found
+;;
+;; Loop 0
+;;  header 0, latch 1
+;;  depth 0, outer -1
+;;  nodes: 0 1 2
+;; 2 succs { 1 }
+void _GLOBAL__sub_I_main ()
+{
+  <bb 2> [local count: 1073741824]:
+  std::ios_base::Init::Init (&__ioinit);
+  __cxxabiv1::__cxa_atexit (__dt_comp , &__ioinit, &__dso_handle);
+  return;
+
+}
+
+

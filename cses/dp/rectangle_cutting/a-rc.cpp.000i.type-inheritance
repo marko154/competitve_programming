@@ -1,0 +1,385 @@
+
+
+Type inheritance graph:
+ type 0: struct _Sp_counted_base
+ derived types:
+   type 1: struct _Sp_counted_ptr_inplace (derivations known)
+   base odr type ids:  0
+
+   type 2: struct _Sp_counted_ptr_inplace (derivations known)
+   base odr type ids:  0
+
+   type 93: struct _Sp_counted_ptr (derivations known)
+   base odr type ids:  0
+
+
+ type 3: struct facet
+ derived types:
+   type 4: struct collate
+   base odr type ids:  3
+   derived types:
+     type 6: struct collate_byname
+     base odr type ids:  4
+
+
+   type 5: struct collate
+   base odr type ids:  3
+   derived types:
+     type 7: struct collate_byname
+     base odr type ids:  5
+
+
+   type 10: struct __ctype_abstract_base
+   base odr type ids:  3
+
+   type 11: struct numpunct
+   base odr type ids:  3
+   derived types:
+     type 13: struct numpunct_byname
+     base odr type ids:  11
+
+
+   type 12: struct numpunct
+   base odr type ids:  3
+   derived types:
+     type 16: struct numpunct_byname
+     base odr type ids:  12
+
+
+   type 14: struct num_get
+   base odr type ids:  3
+
+   type 15: struct num_put
+   base odr type ids:  3
+
+   type 17: struct num_get
+   base odr type ids:  3
+
+   type 18: struct num_put
+   base odr type ids:  3
+
+   type 36: struct __codecvt_abstract_base
+   base odr type ids:  3
+   derived types:
+     type 44: struct codecvt
+     base odr type ids:  36
+     derived types:
+       type 45: struct codecvt_byname
+       base odr type ids:  44
+
+
+
+   type 37: struct __codecvt_abstract_base
+   base odr type ids:  3
+   derived types:
+     type 46: struct codecvt
+     base odr type ids:  37
+     derived types:
+       type 47: struct codecvt_byname
+       base odr type ids:  46
+
+       type 102: struct _UCvt (derivations known)
+       base odr type ids:  46
+
+
+
+   type 38: struct __codecvt_abstract_base
+   base odr type ids:  3
+   derived types:
+     type 40: struct codecvt
+     base odr type ids:  38
+     derived types:
+       type 41: struct codecvt_byname
+       base odr type ids:  40
+
+       type 103: struct _UCvt (derivations known)
+       base odr type ids:  40
+
+
+
+   type 39: struct __codecvt_abstract_base
+   base odr type ids:  3
+   derived types:
+     type 42: struct codecvt
+     base odr type ids:  39
+     derived types:
+       type 43: struct codecvt_byname
+       base odr type ids:  42
+
+       type 104: struct _UCvt (derivations known)
+       base odr type ids:  42
+
+
+
+   type 56: struct __timepunct_cache
+   base odr type ids:  3
+
+   type 57: struct __timepunct_cache
+   base odr type ids:  3
+
+   type 58: struct __timepunct
+   base odr type ids:  3
+
+   type 59: struct __timepunct
+   base odr type ids:  3
+
+   type 60: struct moneypunct
+   base odr type ids:  3
+   derived types:
+     type 67: struct moneypunct_byname
+     base odr type ids:  60
+
+
+   type 61: struct moneypunct
+   base odr type ids:  3
+   derived types:
+     type 66: struct moneypunct_byname
+     base odr type ids:  61
+
+
+   type 62: struct moneypunct
+   base odr type ids:  3
+   derived types:
+     type 76: struct moneypunct_byname
+     base odr type ids:  62
+
+
+   type 63: struct moneypunct
+   base odr type ids:  3
+   derived types:
+     type 75: struct moneypunct_byname
+     base odr type ids:  63
+
+
+   type 64: struct messages
+   base odr type ids:  3
+   derived types:
+     type 74: struct messages_byname
+     base odr type ids:  64
+
+
+   type 65: struct messages
+   base odr type ids:  3
+   derived types:
+     type 83: struct messages_byname
+     base odr type ids:  65
+
+
+   type 68: struct money_get
+   base odr type ids:  3
+
+   type 69: struct money_put
+   base odr type ids:  3
+
+   type 70: struct time_put
+   base odr type ids:  3
+   derived types:
+     type 71: struct time_put_byname
+     base odr type ids:  70
+
+
+   type 72: struct time_get
+   base odr type ids:  3
+   derived types:
+     type 73: struct time_get_byname
+     base odr type ids:  72
+
+
+   type 77: struct money_get
+   base odr type ids:  3
+
+   type 78: struct money_put
+   base odr type ids:  3
+
+   type 79: struct time_put
+   base odr type ids:  3
+   derived types:
+     type 80: struct time_put_byname
+     base odr type ids:  79
+
+
+   type 81: struct time_get
+   base odr type ids:  3
+   derived types:
+     type 82: struct time_get_byname
+     base odr type ids:  81
+
+
+   type 109: struct ctype
+   base odr type ids:  3
+
+
+ type 8: struct basic_streambuf
+ derived types:
+   type 28: struct basic_stringbuf
+   base odr type ids:  8
+
+   type 48: struct basic_filebuf
+   base odr type ids:  8
+
+
+ type 9: struct basic_streambuf
+ derived types:
+   type 32: struct basic_stringbuf
+   base odr type ids:  9
+
+   type 52: struct basic_filebuf
+   base odr type ids:  9
+
+
+ type 19: struct ios_base
+ derived types:
+   type 20: struct basic_ios
+   base odr type ids:  19
+   derived types:
+     type 22: struct basic_ostream
+     base odr type ids:  20
+     derived types:
+       type 26: struct basic_iostream
+       base odr type ids:  24 22
+       derived types:
+         type 31: struct basic_stringstream
+         base odr type ids:  26
+
+         type 51: struct basic_fstream
+         base odr type ids:  26
+
+
+       type 30: struct basic_ostringstream
+       base odr type ids:  22
+
+       type 50: struct basic_ofstream
+       base odr type ids:  22
+
+
+     type 24: struct basic_istream
+     base odr type ids:  20
+     derived types:
+       type 26: struct basic_iostream
+       base odr type ids:  24 22
+       derived types:
+         type 31: struct basic_stringstream
+         base odr type ids:  26
+
+         type 51: struct basic_fstream
+         base odr type ids:  26
+
+
+       type 29: struct basic_istringstream
+       base odr type ids:  24
+
+       type 49: struct basic_ifstream
+       base odr type ids:  24
+
+
+
+   type 21: struct basic_ios
+   base odr type ids:  19
+   derived types:
+     type 23: struct basic_ostream
+     base odr type ids:  21
+     derived types:
+       type 27: struct basic_iostream
+       base odr type ids:  25 23
+       derived types:
+         type 35: struct basic_stringstream
+         base odr type ids:  27
+
+         type 55: struct basic_fstream
+         base odr type ids:  27
+
+
+       type 34: struct basic_ostringstream
+       base odr type ids:  23
+
+       type 54: struct basic_ofstream
+       base odr type ids:  23
+
+
+     type 25: struct basic_istream
+     base odr type ids:  21
+     derived types:
+       type 27: struct basic_iostream
+       base odr type ids:  25 23
+       derived types:
+         type 35: struct basic_stringstream
+         base odr type ids:  27
+
+         type 55: struct basic_fstream
+         base odr type ids:  27
+
+
+       type 33: struct basic_istringstream
+       base odr type ids:  25
+
+       type 53: struct basic_ifstream
+       base odr type ids:  25
+
+
+
+
+ type 84: struct exception
+ derived types:
+   type 85: struct __concurrence_lock_error
+   base odr type ids:  84
+
+   type 86: struct __concurrence_unlock_error
+   base odr type ids:  84
+
+   type 87: struct __concurrence_broadcast_error
+   base odr type ids:  84
+
+   type 88: struct __concurrence_wait_error
+   base odr type ids:  84
+
+   type 98: struct bad_cast
+   base odr type ids:  84
+   derived types:
+     type 99: struct bad_any_cast
+     base odr type ids:  98
+
+
+   type 100: struct bad_optional_access
+   base odr type ids:  84
+
+   type 101: struct bad_variant_access
+   base odr type ids:  84
+
+
+ type 89: struct _Sp_counted_base
+ derived types:
+   type 91: struct _Sp_counted_ptr (derivations known)
+   base odr type ids:  89
+
+
+ type 90: struct _Sp_counted_base
+ derived types:
+   type 92: struct _Sp_counted_ptr (derivations known)
+   base odr type ids:  90
+
+
+ type 94: struct _State_baseV2
+ derived types:
+   type 97: struct _Async_state_commonV2
+   base odr type ids:  94
+
+
+ type 95: struct _Result_base
+ derived types:
+   type 96: struct _Result
+   base odr type ids:  95
+
+
+ type 105: struct memory_resource
+ derived types:
+   type 106: struct monotonic_buffer_resource
+   base odr type ids:  105
+
+   type 107: struct unsynchronized_pool_resource
+   base odr type ids:  105
+
+   type 108: struct synchronized_pool_resource
+   base odr type ids:  105
+
+
+Out of 110 types there are 0 types with duplicates; 0 duplicates overall

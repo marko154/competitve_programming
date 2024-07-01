@@ -1,0 +1,109 @@
+
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>404 &ndash; Not Found &ndash; UPM sodnik</title>
+
+	<link rel="shortcut icon" type="image/png" href="/static/img/favicon.c344ff15e33c.ico">
+
+	<link href="/static/libs/select2/css/select2.min.e71c39430469.css" media="all" rel="stylesheet" type="text/css">
+	<link href="/static/libs/fontawesome/css/fontawesome.min.050a20fcaed9.css" rel="stylesheet" type="text/css">
+	<link href="/static/libs/fontawesome/css/solid.min.8a5e3f57ff99.css" rel="stylesheet" type="text/css">
+	<link href="/static/css/common.4f68f68aa41b.css" media="all" rel="stylesheet" type="text/css">
+
+	<link href="/static/css/specific.59abe0689928.css" media="all" rel="stylesheet" type="text/css">
+	<link href="/static/css/mobile.1fcea807412d.css" media="all" rel="stylesheet" type="text/css">
+
+	<script src="/static/libs/jquery-3.7.1.min.2c872dbe60f4.js"></script>
+	<script src="/static/libs/select2/js/select2.min.3e6e33cd306b.js"></script>
+	<script src="/static/js/main.e0b398a68fbd.js"></script>
+	<script src="/static/js/ajax.5aa63ec1ecd7.js"></script>
+
+	<!-- MathJax setup for rendering math -->
+	<script>
+		MathJax = {
+			tex: {
+				packages: {'[+]': []},
+				// If changing these delimiters, you must also change the markdown processing that protects MathJax snippets
+				// in ui.core.wiki.markdown_support.MathJaxPattern.
+				inlineMath: [['$', '$']],
+				displayMath: [['$$', '$$']],
+			},
+			chtml: { fontURL: '/static/libs/MathJax/mathjax-fonts/' }
+		};
+	</script>
+	<script id="MathJax-script" async src="/static/libs/MathJax/putka-mathjax.min.fcfb3b431012.js"></script>
+
+	
+
+	<link href="/static/css/print.b0cdc4ad920c.css" media="print" rel="stylesheet" type="text/css">
+</head>
+<body class="mathjax_ignore">
+
+<div>
+	<header><div id="header-content">
+		<div id="logo"><a href="/"><img src="/static/img/logo.a4b0e0406320.png" alt="logo"></a></div>
+		
+		<img src="/static/img/head_right.527d5f6ac98a.png" alt="UPM pattern" height="128" id="head-right">
+		
+	</div></header>
+	
+		<div id="headbar">
+			<nav id="breadcrumbs"></nav>
+		</div>
+	
+	<main role="main">
+		
+<style>
+	#errorpage::after {
+		background-image: url('/static/img/404.7d22ed26ad7c.png');
+		background-position: 0px 20px;
+	}
+</style>
+<div id="errorpage">
+	No, to je pa nerodno...<br>Te strani ni tukaj.<br> Nekdo od naju je zamočil.<br>
+	<br>
+	<b>404 &ndash; Not Found</b><br>
+	<br>
+	<a href="javascript:history.go(-1)">&laquo; Nazaj</a>
+</div>
+
+	</main>
+	<footer><div id="footer-content">
+		
+
+<div id="about-putka">
+	<a href="/about/"><img src="/static/img/logo/putka.a32410c73e30.png" alt="Putka logo"></a>
+	<div id="about-collapsible">
+		Putka 5.0-pre-alpha &copy; 2005&ndash;2024 Putka Team.
+		<br> 5.0-pre-alpha+443cf602_integration
+		<br>
+		<a href="/about/" class="footer-link">O Putki</a> |
+		<a href="mailto:info@putka.si" class="footer-link">Pomoč/Komentarji</a>
+	</div>
+</div>
+
+	</div></footer>
+</div>
+
+
+
+	<link href="/static/libs/micromodal/micromodal.3c18430f245e.css" media="all" rel="stylesheet" type="text/css">
+	<script src="/static/libs/micromodal/micromodal.min.dd694c727fc5.js"></script>
+
+	<div class="micromodal-slide" id="global-modal" aria-hidden="true">
+		<div class="modal__overlay" tabindex="-1" data-micromodal-close>
+			<div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="global-modal-title">
+				<button class="modal__close" aria-label="Close modal" data-micromodal-close></button>
+				<div id="global-modal-container"></div>
+			</div>
+		</div>
+	</div>
+	<div id="micromodal-default-content" style="display: none">
+		<h3>Loading...</h3>
+		<div class="loading"><i class="fa fa-sync-alt fa-spin fa-2x"></i></div>
+	</div>
+</body>
+</html>

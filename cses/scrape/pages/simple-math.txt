@@ -1,0 +1,312 @@
+
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Naloge &ndash; UPM sodnik</title>
+
+	<link rel="shortcut icon" type="image/png" href="/static/img/favicon.c344ff15e33c.ico">
+
+	<link href="/static/libs/select2/css/select2.min.e71c39430469.css" media="all" rel="stylesheet" type="text/css">
+	<link href="/static/libs/fontawesome/css/fontawesome.min.050a20fcaed9.css" rel="stylesheet" type="text/css">
+	<link href="/static/libs/fontawesome/css/solid.min.8a5e3f57ff99.css" rel="stylesheet" type="text/css">
+	<link href="/static/css/common.4f68f68aa41b.css" media="all" rel="stylesheet" type="text/css">
+
+	<link href="/static/css/specific.59abe0689928.css" media="all" rel="stylesheet" type="text/css">
+	<link href="/static/css/mobile.1fcea807412d.css" media="all" rel="stylesheet" type="text/css">
+
+	<script src="/static/libs/jquery-3.7.1.min.2c872dbe60f4.js"></script>
+	<script src="/static/libs/select2/js/select2.min.3e6e33cd306b.js"></script>
+	<script src="/static/js/main.e0b398a68fbd.js"></script>
+	<script src="/static/js/ajax.5aa63ec1ecd7.js"></script>
+
+	<!-- MathJax setup for rendering math -->
+	<script>
+		MathJax = {
+			tex: {
+				packages: {'[+]': []},
+				// If changing these delimiters, you must also change the markdown processing that protects MathJax snippets
+				// in ui.core.wiki.markdown_support.MathJaxPattern.
+				inlineMath: [['$', '$']],
+				displayMath: [['$$', '$$']],
+			},
+			chtml: { fontURL: '/static/libs/MathJax/mathjax-fonts/' }
+		};
+	</script>
+	<script id="MathJax-script" async src="/static/libs/MathJax/putka-mathjax.min.fcfb3b431012.js"></script>
+
+	
+
+	<link href="/static/css/print.b0cdc4ad920c.css" media="print" rel="stylesheet" type="text/css">
+</head>
+<body class="mathjax_ignore">
+
+<div>
+	<header><div id="header-content">
+		<div id="logo"><a href="/"><img src="/static/img/logo.a4b0e0406320.png" alt="logo"></a></div>
+		
+		<img src="/static/img/head_right.527d5f6ac98a.png" alt="UPM pattern" height="128" id="head-right">
+		
+<div id="inline-login">
+	
+		<span class="user-info">
+			<i class="fa fa-user"></i> <b>clrsworshipers-2024</b>
+		</span>
+		<span class="additional-login-actions">
+			<a href="/users/detail/clrsworshipers-2024/">Moj profil</a>
+			
+				<a href="/teams/-/register/">Registracija ekipe</a>
+			
+			<form class="logout-form" method="post" action="/logout/">
+				<input type="hidden" name="csrfmiddlewaretoken" value="b9InfMpTfpOAzpnY0bpL2EOoIcxAXu5e8T5fvqgpTQpvO0H7v8uYJbBRog8HK1H2">
+				<button type="submit"><span>Odjava</span> <i class="fa fa-sign-out-alt"></i></button>
+			</form>
+		</span>
+	
+</div>
+
+	</div></header>
+	
+		<div id="headbar">
+			<nav id="breadcrumbs">&nbsp; &raquo; &nbsp;<a href="/tasks/">Naloge</a>&nbsp; &raquo; &nbsp;<a href="/tasks/tags/">Značke</a>&nbsp; &raquo; &nbsp;<a href="/tasks/tags/simple-math/">Značka &#x27;simple-math&#x27;</a></nav>
+		</div>
+	
+	<main role="main">
+		
+			<aside id="left-panel">
+				<menu>
+					
+					<li id="menu-contests"><a href="/contests/">Tekmovanja</a></li>
+					
+						<li id="menu-results"><a href="/results/?user=1492">Oddaje</a></li>
+					
+					<li id="menu-tasks"><a href="/tasks/">Arhiv nalog</a></li>
+					
+						<li id="menu-forums"><a href="/forums/">Forumi</a></li>
+						<li id="menu-usertest"><a href="/results/usertest/">Lasten test</a></li>
+					
+					
+
+					<li id="menu-info" class="sep"><a href="/info/">Tehnične info</a></li>
+
+					<li id="menu-news" class="sep"><a href="/news/">Novice</a></li>
+					
+						<li id="menu-upm"><a href="/teams/">Ekipe</a></li>
+					
+					<li id="menu-conduct"><a href="/info/conduct/">Bonton</a></li>
+
+					
+					
+				</menu>
+				<script>
+					for (let el of document.querySelectorAll("#menu-tasks a")) {
+						el.classList.add('selected');
+					}
+				</script>
+				<div id="alerts" data-ajax-id="alerts">
+					
+
+
+
+
+
+				</div>
+			</aside>
+			<div id="content-wrapper">
+				<aside id="right-panel">
+					
+				</aside>
+				<section id="content">
+					
+					<h1 id="title">
+						Naloge z značko &lsquo;simple-math&rsquo;
+					</h1>
+					
+<p><strong>Opis značke:</strong>
+	Enostavna matematična naloga, izvajati je treba neko osnovno aritmetiko in odločanje.
+</p>
+<p>
+	V sistemu je 27 nalog z značko &lsquo;simple-math&rsquo;.
+</p>
+
+<ul class="icon-list">
+	
+		<li>
+			<i class="fa fa-puzzle-piece"></i>
+			<a class="task" href="/tasks/t/arbitraza-2/">Arbitraža</a>
+		</li>
+	
+		<li>
+			<i class="fa fa-puzzle-piece"></i>
+			<a class="task" href="/tasks/t/cannons/">Cannons</a>
+		</li>
+	
+		<li>
+			<i class="fa fa-puzzle-piece"></i>
+			<a class="task" href="/tasks/t/delno_korenjenje/">Delno korenjenje</a>
+		</li>
+	
+		<li>
+			<i class="fa fa-puzzle-piece"></i>
+			<a class="task" href="/tasks/t/eom/">Efektivna obrestna mera</a>
+		</li>
+	
+		<li>
+			<i class="fa fa-puzzle-piece"></i>
+			<a class="task" href="/tasks/t/gcd-zaporedje/">GCD zaporedje</a>
+		</li>
+	
+		<li>
+			<i class="fa fa-puzzle-piece"></i>
+			<a class="task" href="/tasks/t/hiperpot-do-sole/">Hiperpot do šole</a>
+		</li>
+	
+		<li>
+			<i class="fa fa-puzzle-piece"></i>
+			<a class="task" href="/tasks/t/kvadrazd/">Kvadrati razdalj</a>
+		</li>
+	
+		<li>
+			<i class="fa fa-puzzle-piece"></i>
+			<a class="task" href="/tasks/t/kv_sadovnjak/">Kvadratni sadovnjak</a>
+		</li>
+	
+		<li>
+			<i class="fa fa-puzzle-piece"></i>
+			<a class="task" href="/tasks/t/ocenjevanje_univerz/">Ocenjevanje univerz</a>
+		</li>
+	
+		<li>
+			<i class="fa fa-puzzle-piece"></i>
+			<a class="task" href="/tasks/t/odvod-racionalne-funkcije/">Odvod</a>
+		</li>
+	
+		<li>
+			<i class="fa fa-puzzle-piece"></i>
+			<a class="task" href="/tasks/t/oglasevanje/">Oglaševanje</a>
+		</li>
+	
+		<li>
+			<i class="fa fa-puzzle-piece"></i>
+			<a class="task" href="/tasks/t/periode/">Periode</a>
+		</li>
+	
+		<li>
+			<i class="fa fa-puzzle-piece"></i>
+			<a class="task" href="/tasks/t/nicle-polinoma/">Polinom</a>
+		</li>
+	
+		<li>
+			<i class="fa fa-puzzle-piece"></i>
+			<a class="task" href="/tasks/t/ponaredki/">Ponaredki</a>
+		</li>
+	
+		<li>
+			<i class="fa fa-puzzle-piece"></i>
+			<a class="task" href="/tasks/t/posplosen-pitagorov-izrek/">Posplošen Pitagorov izrek</a>
+		</li>
+	
+		<li>
+			<i class="fa fa-puzzle-piece"></i>
+			<a class="task" href="/tasks/t/potvfx/">Pot v f(x)</a>
+		</li>
+	
+		<li>
+			<i class="fa fa-puzzle-piece"></i>
+			<a class="task" href="/tasks/t/prehod_ceste/">Prehod čez cesto</a>
+		</li>
+	
+		<li>
+			<i class="fa fa-puzzle-piece"></i>
+			<a class="task" href="/tasks/t/racionalna/">Racionalna števila</a>
+		</li>
+	
+		<li>
+			<i class="fa fa-puzzle-piece"></i>
+			<a class="task" href="/tasks/t/raznobarvna-naloga/">Raznobarvna naloga</a>
+		</li>
+	
+		<li>
+			<i class="fa fa-puzzle-piece"></i>
+			<a class="task" href="/tasks/t/racun/">Račun</a>
+		</li>
+	
+		<li>
+			<i class="fa fa-puzzle-piece"></i>
+			<a class="task" href="/tasks/t/sendvici/">Sendviči</a>
+		</li>
+	
+		<li>
+			<i class="fa fa-puzzle-piece"></i>
+			<a class="task" href="/tasks/t/skalarni/">Skalarni produkt</a>
+		</li>
+	
+		<li>
+			<i class="fa fa-puzzle-piece"></i>
+			<a class="task" href="/tasks/t/skrito-zaporedje/">Skrito zaporedje</a>
+		</li>
+	
+		<li>
+			<i class="fa fa-puzzle-piece"></i>
+			<a class="task" href="/tasks/t/sveti_gral/">Sveti gral</a>
+		</li>
+	
+		<li>
+			<i class="fa fa-puzzle-piece"></i>
+			<a class="task" href="/tasks/t/travca/">Trav&#x27;ca</a>
+		</li>
+	
+		<li>
+			<i class="fa fa-puzzle-piece"></i>
+			<a class="task" href="/tasks/t/ulam/">Ulam</a>
+		</li>
+	
+		<li>
+			<i class="fa fa-puzzle-piece"></i>
+			<a class="task" href="/tasks/t/stevke/">Števke</a>
+		</li>
+	
+</ul>
+
+
+				</section>
+			</div>
+		
+	</main>
+	<footer><div id="footer-content">
+		
+
+<div id="about-putka">
+	<a href="/about/"><img src="/static/img/logo/putka.a32410c73e30.png" alt="Putka logo"></a>
+	<div id="about-collapsible">
+		Putka 5.0-pre-alpha &copy; 2005&ndash;2024 Putka Team.
+		<br> 5.0-pre-alpha+443cf602_integration
+		<br>
+		<a href="/about/" class="footer-link">O Putki</a> |
+		<a href="mailto:info@putka.si" class="footer-link">Pomoč/Komentarji</a>
+	</div>
+</div>
+
+	</div></footer>
+</div>
+
+
+
+	<link href="/static/libs/micromodal/micromodal.3c18430f245e.css" media="all" rel="stylesheet" type="text/css">
+	<script src="/static/libs/micromodal/micromodal.min.dd694c727fc5.js"></script>
+
+	<div class="micromodal-slide" id="global-modal" aria-hidden="true">
+		<div class="modal__overlay" tabindex="-1" data-micromodal-close>
+			<div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="global-modal-title">
+				<button class="modal__close" aria-label="Close modal" data-micromodal-close></button>
+				<div id="global-modal-container"></div>
+			</div>
+		</div>
+	</div>
+	<div id="micromodal-default-content" style="display: none">
+		<h3>Loading...</h3>
+		<div class="loading"><i class="fa fa-sync-alt fa-spin fa-2x"></i></div>
+	</div>
+</body>
+</html>
